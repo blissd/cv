@@ -1,0 +1,152 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[latin1]{inputenc}
+\usepackage{calc}
+\usepackage{a4wide}
+\usepackage{setspace}
+\usepackage{fixltx2e}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage[normalem]{ulem}
+\usepackage[english]{babel}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{marvosym}
+\usepackage[left=0.5in,top=0.5in,right=0.5in,bottom=0.75in,nohead,nofoot]{geometry}
+\usepackage[none]{hyphenat}
+
+\newcommand{\head}[1]{\begin{center}{\large{\textbf{\sc{#1}}}}\nopagebreak\end{center}}
+\newcommand{\jobheld}[2]{\textbf{#1\hfill #2}\nopagebreak}
+\newcommand{\keyskills}[1]{\vspace{10pt}Key Skills: #1.}
+\newcommand{\thead}[1]{\textbf{#1}\linebreak}
+
+\renewcommand{\familydefault}{\sfdefault} % use sans serif font
+
+\begin{document}
+%\begin{flushleft}
+\setlength{\parindent}{0pt} % don't indent first line of paragraphs
+
+\begin{center}
+\LARGE{\textbf{\sc{David Bliss}}}
+\end{center}
+
+
+\begin{center}
+\href{mailto:david.r.bliss@gmail.com}{david.r.bliss@gmail.com}
+\textperiodcentered Home 01444 457762
+\textperiodcentered Mobile 07804 116305
+\end{center}
+
+
+\begin{center}
+34 Farlington Avenue, Haywards Heath, West Sussex, RH16 3EY
+\end{center}
+
+
+\head{Profile}
+
+Experienced IT professional with a proven 10 year history of delivering reliable applications.  Practical knowledge of designing, developing, and supporting enterprise applications that are mission-critical and safety-critical.  US/UK dual national, so can work in the United States or United Kingdom with ease.
+
+\head{Skills Summary}
+
+\mbox{ % use mbox to keep the minipages on the same horizontal line
+\begin{minipage}[t]{1.25in}
+\begin{flushleft}
+\thead{Languages}
+Java (\emph{5 years}), \\ C, \\ SQL, \\ XSLT
+\end{flushleft}
+\end{minipage}
+
+\begin{minipage}[t]{3.5in}
+\begin{flushleft}
+\thead{Tools and Frameworks}
+Spring Framework, JBoss, Tomcat, EJB3, \\
+JPA, JAXB, JUnit, TestNG, Mockito, Swing \\
+MySQL, Oracle, Hibernate, Wicket, Maven, \\
+Ant, Hudson, Continuum, Nexus, Archiva, \\
+BEA Tuxedo, System V IPC, POSIX message queues
+\end{flushleft}
+\end{minipage}
+
+\begin{minipage}[t]{2.25in}
+\begin{flushleft}
+\thead{OS and Virtualization}
+Windows XP/2000/2003,  \\
+FreeBSD, Ubuntu, Debian, \\
+Solaris, SCO UnixWare,  \\
+FreeBSD jails, VirtualBox, Qemu  
+\end{flushleft}
+\end{minipage}
+
+} % mbox
+
+\head{Professional Experience}
+
+\jobheld{RDF Group}{October 2006 to the present}
+
+RDF Group, a leading supplier of IT solutions to blue chip customers across the UK, recruited me to contribute my proven technical knowledge and experience to their IT offerings.
+
+\keyskills{Java, Spring, JEE, EJB3, Hibernate, JPA, MySQL}
+
+\begin{itemize}
+
+\item Improved \emph{Pyrites}, a marine insurance underwriting application developed with Java Web Start, Swing, and JEE and deployed to a JBoss and Oracle backend, to support underwriting of aviation and space ventures, which will earn \textsterling27 million per year in insurance premiums for \href{http://www.kilngroup.com/}{Kiln Group}, one of Europe's leading marine insurance underwriters trading in the Lloyds market.
+
+\item Extended the Pyrites insurance underwriting application to support doing business in Germany.  Kiln Group expects this work to grow their insurance portfolio by \textsterling18 million.
+
+\item Led a team of developers to create a Java JEE web interface for a report queueing system used by \href{http://www.loyalty.co.uk/}{Loyalty Management Group}, England's leading loyalty card management company.  The application provides a rich interface built with Wicket, integrates with an Oracle database and a WX2 data warehouse, and is deployed to JBoss 5.
+
+\item Authored a series of high-level technical documents for the Loyalty Management Group to provide technical steering for extending their software products for internationalization, simplifying runtime configuration, and supporting international variants of the ``star-shaped'' retail data model.
+
+\item Designed and developed a SQL templating system in Java for \emph{SelfServe}, an EPOS data analysis application, which allowed the Loyalty Management Group to rapidly create SQL reports to run against a 10TB Kognitio WX2 data warehouse.  Running the reports against WX2 \href{http://www.kognitio.com/casestudies/casestudy_lmg.php}{reduced processing time by a factor of \textbf{60}}---manually produced reports that would run in \emph{5 hours} are now automated and run in less than \emph{5 minutes}.
+
+\item Extended and maintained a Java JEE web-based ecommerce application for \href{http://www.northernrock.co.uk}{Northern Rock}, one of England's leading mortgage providers.  Development required EJB2, iBatis, JMS, XSLT, and was deployed to IBM WebLogic.
+
+\item Developed an employee review system using a technology stack including Java, the Spring Framework, MySQL, Wicket, Maven, and Tomcat.
+
+\item Mentored two junior Java developers.
+
+\end{itemize}
+
+\jobheld{C Squared Consulting}{July 2000 to July 2006}
+
+Through C Squared Consulting, a specialist company providing software services to law enforcement agencies, I engaged in many successful contracts with the California Department of Justice.  I worked with various software stacks on systems ranging from small internally used web applications, politically-charged publically accessible web sites, and large high-performance message switches.
+
+\keyskills{C, Java, C\#, BEA Tuxedo, Oracle, MS SQL Server}
+
+\begin{itemize}
+
+\item Leveraged BEA Tuxedo, C, Oracle, and TCP/IP to develop a reliable, fault tolerant, high performance message switch to integrate the \href{http://definitions.uslegal.com/c/clets/}{California Law Enforcement Telecommunications System} with statewide and nationwide systems to provide California and the other 49 US states with reciprocal access to each others' criminal intelligence databases.  The system integrates with the FBI's National Crime Information Center, the National Law Enforcement Telecommunications System, and the California Department of Motor Vehicles, and processes in excess of 1,400,000 messages per day.  This is a safety-critical application that police officers' lives depend on.
+
+\item Led a team of two other C and Oracle developers to create a web-based solution for California's Do Not Call legislation, which legally mandated there be a registry of names and phone numbers that telemarketers cannot contact.  The Do Not Call registry was eagerly anticipated by California's residents (as evidenced by \href{http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2003/03/31/MN5478.DTL}{many news paper articles}) and over two million Californians registered during the system's lifetime.
+
+\item Used a Microsoft technology stack of C\#, IIS, MSMQ, SQL Server, and BizTalk Server to develop a web-based solution for California's manual court disposition process. The solution is used by 58 counties in California and has successfully reduced the disposition processing time from \emph{60 days} to only \emph{12 hours}. 
+
+\item Developed performance tests for the California Department of Justice's \href{http://www.meganslaw.ca.gov/}{Megan's Law} website.
+
+\item Used a Java stack of Oracle OC4j, Oracle AQ, and EJB2 to develop TCP/IP computer interface between California's Statewide Intelligence Network System and the Department of Justice's criminal databases. 
+
+\item Migrated a 300 user VB application to a web solution developed with Java and the Spring Framework. 
+
+\item Supported and extended a web-based application, written in C, to replace old-fashioned teletype terminals that access the Department of Justice's criminal databases.  The solution included a TCP/IP messaging component to integrate with the Department of Justice's legacy mainframe systems.
+
+\end{itemize}
+
+\head{Education}
+
+
+\jobheld{University of Brighton}{1994 to 2000}
+
+
+BSc (with Honours) Computer Science (2:1).  Included one year's work experience at the California Department of Justice to develop and support a web-based messaging system. 
+
+Higher National Diploma in Software Engineering. 
+
+\head{Interests}
+
+Philosophy, Austrian school of economics, Geocaching, Erlang, Scala, FreeBSD. 
+
+\begin{center}References available on request.\end{center}
+
+%\end{flushleft}
+\end{document}
+
