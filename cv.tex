@@ -16,6 +16,7 @@
 
 \newcommand{\head}[1]{\begin{center}{\large{\textbf{\sc{#1}}}}\nopagebreak\end{center}}
 \newcommand{\jobheld}[2]{\textbf{#1\hfill #2}\nopagebreak}
+\newcommand{\clientwork}[2]{\emph{#1\hfill #2}\nopagebreak}
 \newcommand{\keyskills}[1]{\vspace{10pt}Key Skills: #1.}
 \newcommand{\thead}[1]{\textbf{#1}\linebreak}
 
@@ -40,7 +41,6 @@
 \begin{center}
 34 Farlington Avenue, Haywards Heath, West Sussex, RH16 3EY
 \end{center}
-
 
 \head{Profile}
 
@@ -81,7 +81,8 @@ Hudson, Continuum, Nexus, Archiva
 
 RDF Group, a leading supplier of IT solutions to blue chip customers across the UK, recruited me to gain my proven technical knowledge and experience.  Since being promoted in 2009 to \emph{Lead Practitioner}, I have been placed onsite with various clients to provide services of technical insight and product development.
 
-\keyskills{Java, Spring, JEE, EJB3, Hibernate, JPA, MySQL}
+
+%\clientwork{Kiln Group}{9 months}
 
 \begin{itemize}
 
@@ -89,14 +90,31 @@ RDF Group, a leading supplier of IT solutions to blue chip customers across the 
 
 \item Led the design and development of the \emph{Campaign Analysis Platform}, a Java JEE web interface for a concurrent report queueing system used by the \href{http://www.loyalty.co.uk/}{Loyalty Management Group}, England's leading loyalty card management company and owner of the \emph{Nectar} brand of loyalty cards.  The application provides a rich interface built with Wicket, integrates with an Oracle database and a Kognitio WX2 data warehouse, and is deployed to JBoss 5.
 
+\end{itemize}
+
+%\clientwork{Loyalty Management Group (aka Groupe Aeroplan)}{12 months}
+
+\begin{itemize}
+
 \item Authored a series of high-level technical documents for the Loyalty Management Group to provide technical steering for extending their software products for internationalization, simplifying deployment and runtime configuration, and supporting international variants of the ``star-schema'' retail data model.
 
 \item Engineered an SQL templating system in Java for \emph{SelfServe}, an EPOS data analysis application, allowing the Loyalty Management Group to rapidly create SQL reports to run against a 10TB WX2 data warehouse.  Running reports against WX2 has \href{http://www.kognitio.com/casestudies/casestudy_lmg.php}{reduced processing time by a factor of \textbf{60}}---manually produced reports that would run in \emph{5 hours} are now automated and run in less than \emph{5 minutes}.
+
+\end{itemize}
+
+%\clientwork{Northern Rock}{24 months}
+
+\begin{itemize}
 
 \item Extended and maintained a Java JEE web-based ecommerce application for \href{http://www.northernrock.co.uk}{Northern Rock}, one of England's leading mortgage providers.  Development required EJB2, iBatis, JMS, XSLT, and was deployed to IBM WebLogic.
 
 \item Assumed the task of improving development processes internal to RDF. Introduced the Hudson continuous integration server, authored templates for quickly creating new Maven projects, installed a SonaType Nexus artifact repository, and spearheaded using Bugzilla and Mylyn for tracking tasks.  I also gave a series of presentations on tools and libraries to improve development; such as the Joda-Time date/time library, the Maven build tool, Mylyn/Bugzilla,  and the Mockito mocking library. 
 
+\end{itemize}
+
+%\clientwork{Internal RDF projects}{}
+
+\begin{itemize}
 \item Developed an employee review system using a technology stack including Java, the Spring Framework, MySQL, Wicket, Maven, and Tomcat.
 
 \item Mentored two junior Java developers.
@@ -106,8 +124,6 @@ RDF Group, a leading supplier of IT solutions to blue chip customers across the 
 \jobheld{C Squared Consulting}{July 2000 to July 2006}
 
 C Squared Consulting is a specialist company providing software services to law enforcement agencies.  For six years I worked with various software stacks on systems ranging from small internally used web applications, politically-charged publically accessible web sites, and large high-performance message switches.
-
-\keyskills{C, Java, C\#, BEA Tuxedo, Oracle, MS SQL Server}
 
 \begin{itemize}
 
@@ -129,7 +145,7 @@ C Squared Consulting is a specialist company providing software services to law 
 
 \jobheld{University of Brighton}{1994 to 2000}
 
-BSc (with Honours) Computer Science (2:1).  Included one year's work experience at the California Department of Justice to develop and support a web-based messaging system. 
+BSc (with Honours) Computer Science (2:1), which included one year's work experience at the California Department of Justice to develop and support a web-based messaging system. 
 
 Higher National Diploma in Software Engineering. 
 
