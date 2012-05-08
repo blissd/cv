@@ -16,8 +16,11 @@
 
 \newcommand{\head}[1]{\begin{center}{\large{\textbf{\sc{#1}}}}\nopagebreak\end{center}}
 \newcommand{\jobheld}[2]{\textbf{#1\hfill #2}\nopagebreak}
-\newcommand{\clientwork}[2]{\emph{#1\hfill #2}\nopagebreak}
+\newcommand{\clientwork}[3]{\textbf{#1\hfill#3\hfill#2}\nopagebreak}
+\newcommand{\renewals}[2]{(#2)\nopagebreak}
 \newcommand{\keyskills}[1]{\vspace{10pt}Key Skills: #1.}
+\newcommand{\tab}{\hspace{2em}}
+\newcommand{\education}[3]{#1\tab#2\hfill#3}
 \newcommand{\thead}[1]{\textbf{#1}\linebreak}
 
 \renewcommand{\familydefault}{\sfdefault} % use sans serif font
@@ -33,8 +36,7 @@
 
 \begin{center}
 \href{mailto:david.r.bliss@gmail.com}{david.r.bliss@gmail.com}
-\textperiodcentered Home 01444 457762
-\textperiodcentered Mobile 07804 116305
+\textperiodcentered 07804 116305
 \end{center}
 
 
@@ -44,68 +46,69 @@
 
 \head{Profile}
 
-David is the director of \href{http://www.yottabyte.ltd.uk/}{Yottabyte} and has over 12 years experience designing, developing, and delivering mission-critical software systems.
+High calibre SENIOR JAVA DEVELOPER with 12 years experience in software design and development in \textbf{financial}, commercial insurance, and law enforcement industries.
 
-\head{Skills Summary}
+\head{Expertise (non-exhaustive)}
 
-\mbox{ % use mbox to keep the minipages on the same horizontal line
-\begin{minipage}[t]{1.25in}
-\begin{flushleft}
-\thead{Languages}
-Java (\emph{8 years}), \\ C, SQL, \\ XML, XSD, \\ XSLT
-\end{flushleft}
-\end{minipage}
+\begin{tabular}{| r | p{14cm} | }
+\hline
+Languages and APIs & Java, SQL, EJB, Spring, Hibernate, JPA, JMS, JAXB, JSP, Swing, Mockito, JUnit, TestNG, Wicket, XML, XSD, XSLT, C, Bourne Shell, Sed, Awk \\
+\hline
+Methodologies & Agile, XP, Waterfall, TDD, BDD \\
+\hline
+Databases & Oracle 10g, MySQL, SQL Server, HSQL, SQLite, PL/SQL \\
+\hline
+Application Servers & JBoss, Tomcat, WebLogic, WebSphere, OC4J \\
+\hline
+Messaging & WebSphere MQ, Active MQ, Oracle AQ, Jersey \\
+\hline
+Build Tools & Maven, Ant, Hudson, Continuum, Bamboo, Archiva, JIRA, Confluence, Crowd, Mingle, CVS, Subversion, Perforce, Git \\
+\hline
+\end{tabular}
 
-\begin{minipage}[t]{3.25in}
-\begin{flushleft}
-\thead{APIs and Tools}
-EJB3, JAXB, JMS, JMX, JPA, JSP, Swing, Web Start, JUnit, TestNG, Mockito, Selenium,
-SOAP, Hibernate, iBatis, Wicket, Maven, Ant,
-System V IPC, POSIX threads and message queues
-\end{flushleft}
-\end{minipage}
-
-\begin{minipage}[t]{2.5in}
-\begin{flushleft}
-\thead{Servers and Databases}
-Spring, JBoss, Tomcat, WebSphere, WebLogic, MySQL, Oracle,
-Sonar, Hudson, Continuum, Sonatype Nexus, Archiva,
-JIRA, Confluence, Crowd, Bamboo,
-BEA Tuxedo
-\end{flushleft}
-\end{minipage}
-
-} % mbox
-
-\head{Professional Experience}
-
-\jobheld{Yottabyte Limited}{January 2011 to the present}
-
-%\clientwork{Bank of America}{February 2011 to May 2012}
+\head{Achievements}
 
 \begin{itemize}
+
+\item Implemented insurance and reinsurance capabilities to earn Kiln Group an estimated \textbf{\textsterling27 million per year} in the Lloyd's Market.
+
+\item Reduced processing time of California's court dispositions from \textbf{60 days to 12 hours}, improving police officer safety by keeping law enforcement records up to date.
+
+\item Reduced time and effort to produce of data analytics reports by engineering a SQL templating system to replace bespoke reports, \textbf{saving weeks} of work for each report for each client.
+
+\end{itemize}
+
+\head{Career History}
+
+\clientwork{February 2011 to May 2012}{\href{http://corp.bankofamerica.com/}{Bank of America Merrill Lynch}}{Senior Designer and Developer}
+
+\renewals{15 months}{3 renewals}
+
+\begin{itemize}
+
+%http://www.marketwatch.com/story/bank-of-america-merrill-lynch-adds-physical-cash-concentration-to-global-liquidity-platform-2012-03-19
 
 \item Joined a team of 15 developers desiging and developing the next generation of Bank of America's award winning and market-leading Global Liquidity Platform. Worked in an agile environment with daily stand ups, pair programming, and retrospectives.
 
 \end{itemize}
 
-\jobheld{RDF Group}{October 2006 to January 2011}
+\clientwork{October 2006 to January 2011}{\href{http://www.rdfgroup.com/}{RDF Group}}{Lead Practioner}
 
-RDF Group, a leading supplier of IT solutions to blue chip customers across the UK, recruited me to gain my proven technical knowledge and experience.
+RDF Group is a supplier of IT solutions, services and staff and provided David's expertise to Kiln Group, Aimia, and Northern Rock.
 
-%\clientwork{Kiln Group}{9 months}
+\clientwork{9 months}{\href{http://kilngroup.com/}{Kiln Group}}{Lead Designer and Developer}
 
 \begin{itemize}
 
-\item Enhanced \emph{Pyrites}, a marine insurance application, to support underwriting of aviation and space business, which will earn an estimated \textsterling27 million per year in insurance premiums for \href{http://www.kilngroup.com/}{Kiln Group}, one of Europe's leading reinsurance and insurance underwriters trading in the Lloyds market. A second Kiln project enhanced Pyrites to support the German insurance market and is expected to grow  Kiln's insurance portfolio by \textsterling18 million.
+\item Enhanced \emph{Pyrites}, a marine insurance application, to support underwriting of aviation and space business, which will earn an estimated \textsterling27 million per year in insurance premiums for Kiln Group, one of Europe's leading reinsurance and insurance underwriters trading in the Lloyds market. A second Kiln project enhanced Pyrites to support the German insurance market and is expected to grow  Kiln's insurance portfolio by \textsterling18 million.
 
 \end{itemize}
 
-%\clientwork{Loyalty Management Group (aka Groupe Aeroplan)}{12 months}
+\clientwork{18 months}{\href{http://www.aimia.com/}{Aimia}}{Senior Designer, Developer, and Technical Architect}
 
 \begin{itemize}
 
-\item Joined a team of three technical architects at \href{http://www.aimia.com/}{Aimia}, a global leader of customer loyalty management and owner of the \emph{Nectar} brand of loyalty cards.  Comissioned to provide architectual oversight for new projects, and to simplify application management and development by upgrading their build infrastructure to Maven, JIRA, Bamboo, and Sonatype Nexus.
+\item Joined a team of three technical architects at Aimia, a global leader of customer loyalty management and owner of the \emph{Nectar} brand of loyalty cards.  Comissioned to provide architectual oversight for new projects, and to simplify application management and development by upgrading their build infrastructure to Maven, JIRA, Bamboo, and Sonatype Nexus.
 
 \item Authored a series of high-level technical documents for Amia to provide technical steering for extending their loyalty analytics products for internationalization, simplifying deployment and runtime configuration, and supporting international variants of the ``star-schema'' retail data model.  
 
@@ -116,49 +119,27 @@ RDF Group, a leading supplier of IT solutions to blue chip customers across the 
 \end{itemize}
 
 %\clientwork{Northern Rock}{24 months}
+\clientwork{30 months}{\href{http://www.northernrock.co.uk}{Northern Rock}}{Designer and Developer}
 
 \begin{itemize}
 
-\item Extended and maintained the online customer mortgage Java EJB2 application for \href{http://www.northernrock.co.uk}{Northern Rock}, one of England's leading mortgage providers.
+\item Extended and maintained the online customer mortgage Java EJB2 application for Northern Rock, one of England's leading mortgage providers.
 
 \end{itemize}
 
-%\clientwork{Internal RDF projects}{}
+\jobheld{July 2000 to July 2006}{C Squared Consulting}
 
-\begin{itemize}
+For the California Department of Justice, David provided the necessary skills to develop a fault tolerant and high performance message switch written in C, BEA Tuxedo, and Oracle, which integrated the \href{http://definitions.uslegal.com/c/clets/}{California Law Enforcement Telecommunications System} with state and federal systems, allowing California to satisfy performance and regulatory requirements. \\
 
-\item Mentored two junior Java developers.
+Led a team of two C and Oracle developers to create a public website for California's \href{http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2003/03/31/MN5478.DTL}{Do Not Call} legislation that mandated a registry of names and phone numbers that telemarketers cannot contact.  Two million Californians registered during the system's lifetime. \\
 
-\end{itemize}
-
-\jobheld{C Squared Consulting}{July 2000 to July 2006}
-
-C Squared Consulting specializes in providing software services to California's law enforcement agencies.  For six years I worked with various software stacks on systems ranging from small internally used web applications, politically-charged web sites, and large high-performance message switches.
-
-\begin{itemize}
-
-\item Developed a reliable, fault tolerant, parallel, high performance, message switch to integrate the \href{http://definitions.uslegal.com/c/clets/}{California Law Enforcement Telecommunications System} with statewide and nationwide systems to provide California and the other 49 US states with reciprocal access to each others' criminal intelligence databases.  The system integrates the FBI's National Crime Information Center, the National Law Enforcement Telecommunications System, and California's Department of Motor Vehicles, and processes in excess of 1,400,000 messages per day.  This is a safety-critical application that police officers' lives depend on.  \emph{Key technologies: C, BEA Tuxedo, C, TCP/IP sockets, UNIX}.
-
-\item Led a team of two developers to create a web-based solution for California's \emph{Do Not Call} legislation that mandated a registry of names and phone numbers that telemarketers cannot contact.  The Do Not Call registry was \href{http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2003/03/31/MN5478.DTL}{eagerly anticipated by California's residents} and over two million Californians registered during the system's lifetime.
-
-\item Designed and developed \emph{XCourt}, a .NET and MSSQL web-based solution for California's manual court disposition process. The solution is used by 58 counties in California and has successfully reduced the disposition processing time from \emph{60 days} to only \emph{12 hours}.
-
-\item Performance tested the California Department of Justice's \href{http://www.meganslaw.ca.gov/}{Megan's Law} website.
-
-\item Engineered a Java TCP/IP computer interface between California's Statewide Intelligence Network System and the Department of Justice's criminal intelligence databases.
-
-\item Developed \emph{LEAWEB}, a web-based application written in C with a C-ISAM database to replace antiquated teletype terminals accessing the Department of Justice's criminal databases.  The value of my work was acknowledged by an award presented by the California Attorney General.
-
-\end{itemize}
+Created \emph{XCourt}, a .NET, BizTalk and MSSQL solution to automate California's manual court disposition process.
 
 \head{Education}
 
-\jobheld{University of Brighton}{1994 to 2000}
+\education{1996 to 2000}{2.1 BSc (with Honours) Computer Science}{University of Brighton}
 
-BSc (with Honours) Computer Science (2:1), which included one year's work experience at the California Department of Justice to develop and support a web-based messaging system. 
+\education{1994 to 1996}{Higher National Diploma in Software Engineering}{University of Brighton}
 
-Higher National Diploma in Software Engineering. 
-
-%\end{flushleft}
 \end{document}
 
