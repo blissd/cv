@@ -72,7 +72,7 @@ Build Tools & Maven, Ant, Hudson, Continuum, Bamboo, Archiva, JIRA, Confluence, 
 
 \item Implemented insurance and reinsurance capabilities to earn Kiln Group an estimated \textbf{\textsterling27 million per year} in the Lloyd's Market.
 
-\item Reduced time and effort to produce of data analytics reports by engineering a SQL templating system to replace bespoke reports, \textbf{saving weeks} of work for each report for each client.
+\item Reduced time and effort to produce data analytics reports by engineering a SQL templating system to replace bespoke reports, \textbf{saving weeks} of work for each report for each client.
 
 \item Reduced processing time of California's court dispositions from \textbf{60 days to 12 hours}, improving police officer safety by keeping law enforcement records up to date.
 
@@ -86,56 +86,46 @@ Build Tools & Maven, Ant, Hudson, Continuum, Bamboo, Archiva, JIRA, Confluence, 
 
 %http://www.marketwatch.com/story/bank-of-america-merrill-lynch-adds-physical-cash-concentration-to-global-liquidity-platform-2012-03-19
 
-David partnered with ThoughtWorks to deliver GLPv4, a re-write of BAML's \textbf{Global Liquidity Platform}. BAML believed a brand new platform was necessary to provide a solid foundation for rapidly developing novel market-leading \textbf{sweeping} and \textbf{pooling} products, which include \emph{Multi-Currency Notional Pooling}, \emph{Single Currency Notional Pooling}, and \emph{Physical Cash Concentration} products.  \\
+David partnered with ThoughtWorks to deliver GLPv4, a re-write of BAML's \textbf{Global Liquidity Platform}. BAML believed a brand new platform was necessary to provide a solid foundation for rapidly developing novel market-leading \textbf{sweeping} and \textbf{pooling} products, which include \emph{Multi-Currency Notional Pooling}, \emph{Single Currency Notional Pooling}, and \emph{\href{http://www.marketwatch.com/story/bank-of-america-merrill-lynch-adds-physical-cash-concentration-to-global-liquidity-platform-2012-03-19}{Physical Cash Concentration}}.\\
 
-David worked closely with the main stakeholders and business analysts to develop the master story list, which involved many sessions discussing technical issues with non-technical staff, and using his technical experience to estimate story points. David also worked closely the testing team to develop BDD JBehave stories that would demonstrate in non-technical business language that the liquidity platform had met its business requirements.  \\
+David worked closely with the main stakeholders and business analysts to develop the master story list, which involved discussing technical issues with non-technical staff, and using his technical experience to estimate story points. David also worked closely with the testing team to develop BDD JBehave stories that would demonstrate in non-technical business language that the liquidity platform had met its business requirements.\\
 
-The development process was a agile and scrum based and involved several months of pair-programming. To develop GLPv4, David leveraged Java, Spring, Oracle, WebSphere MQ and REST to provide a set of compartmentalized fault-tolerant service domains communicating via JMS messaging and HTTP RESTful calls. Within domains database consistency is maintained by JTA and XA, while between domains eventual consistency is ensured by idempotency and compensating transactions. \\
+Development used agile and scrum processes and involved several months of pair-programming. To develop GLPv4, David leveraged Java, Spring, Oracle, WebSphere MQ and REST to provide a set of compartmentalized fault-tolerant service domains communicating via JMS messaging and HTTP RESTful calls. Within domains database consistency is maintained by JTA and XA, while between domains eventual consistency is ensured by idempotency and compensating transactions.\\
 
-David has gained knowledge of the liquidity problem space and Treasury concerns. He has broadened his practical understanding of fault-tolerant, highly parallel messaging systems. \\
+David has gained knowledge of the liquidity problem space and Treasury concerns. He has broadened his practical experience of fault-tolerant, highly parallel messaging systems.\\
 
 \clientwork{October 2006 to January 2011}{\href{http://www.rdfgroup.com/}{RDF Group}}{Lead Practioner}
 
-RDF Group is a supplier of IT solutions, services and staff and provided David's expertise to Kiln Group, Aimia, and Northern Rock.
+RDF Group is a supplier of IT solutions and staff and provided David's expertise to Kiln Group, Aimia, and Northern Rock.\\
+
+\clientwork{18 months}{\href{http://www.aimia.com/}{Aimia}}{Senior Designer, Developer, Technical Architect}
+
+Aimia (formerly Groupe Aeroplan, formerly Loyalty Management Group), is a global leader of loyalty management and owner of the \href{http://www.nectar.com/}{Nectar} brand of loyalty cards. They wanted to develop further their \href{http://www.aimia.com/English/Services/Loyalty-Analytics/default.aspx}{loyalty analytics platform}, SelfServe, and engaged David both as a Java developer and as a technical architect.\\
+
+\textbf{Senior Designer Developer}. Aimia required an individual with a deep understanding of Java, SQL, and unit testing methodologies to deliver a robust, testable, and flexible SQL templating solution for SelfServe. David used his experience of Java to rapidly engineer a new SQL templating solution, allowing the SelfServe to create SQL reports to run against a 10TB data warehouse. SelfServe reduces processing time by a factor of \textbf{60}---manually produced reports that would run in \textbf{5 hours} are now automated and run in less than \textbf{5 minutes}.\\
+
+Aimia wanted to better leverage the analytics gathered from mailshots and other product promotion strategies, so that customers could gain insight into their promotional efforts. David was asked to lead the design and development of a \emph{Campaign Analysis Platform}, using Java, Wicket, and SQL and integrating with SelfServe.\\
+
+\textbf{Technical Architect}. Aimia were eagerly pursuing new loyalty data analytics markets and wanted to better understand how to repurpose their UK-focussed SelfServe platform to be deployable in international markets. David combined his extensive knowledge of SelfServe with input from key stakeholders and insight from data analysts to author a series of high-level technical steering documents advising how to generalize the database ``star-schema'', support internationalization, and simplify deployment and runtime configuration. From this foundation, Aimia has been able to successfully adapt SelfServe and won new business in several international markets, including Italy and Australia.\\
+
+Joined a team of three technical architects to provide architectural oversight for new projects, and to simplify application management and development by streamlining their build infrastructure. David worked with other architects, managers, team leads, and data analysts to provide a broad range of technical advice and insight.\\
 
 \clientwork{9 months}{\href{http://kilngroup.com/}{Kiln Group}}{Lead Designer and Developer}
 
-\begin{itemize}
-
-\item Enhanced \emph{Pyrites}, a marine insurance application, to support underwriting of aviation and space business, which will earn an estimated \textsterling27 million per year in insurance premiums for Kiln Group, one of Europe's leading reinsurance and insurance underwriters trading in the Lloyds market. A second Kiln project enhanced Pyrites to support the German insurance market and is expected to grow  Kiln's insurance portfolio by \textsterling18 million.
-
-\end{itemize}
-
-\clientwork{18 months}{\href{http://www.aimia.com/}{Aimia}}{Senior Designer, Developer, and Technical Architect}
-
-\begin{itemize}
-
-\item Joined a team of three technical architects at Aimia, a global leader of customer loyalty management and owner of the \emph{Nectar} brand of loyalty cards.  Comissioned to provide architectual oversight for new projects, and to simplify application management and development by upgrading their build infrastructure to Maven, JIRA, Bamboo, and Sonatype Nexus.
-
-\item Authored a series of high-level technical documents for Amia to provide technical steering for extending their loyalty analytics products for internationalization, simplifying deployment and runtime configuration, and supporting international variants of the ``star-schema'' retail data model.  
-
-\item Led the design and development of Aimia's \emph{Campaign Analysis Platform}, a rich web interface with a database backend for a concurrent report queueing system used to analyze Nectar customer data.
-
-\item Engineered an SQL templating system for \emph{SelfServe}, an Java EJB3 and SQL data analysis application, allowing the Aimia to rapidly create SQL reports to run against a 10TB data warehouse.  Processing time was reduced by a factor of \textbf{60}---manually produced reports that would run in \textbf{5 hours} are now automated and run in less than \textbf{5 minutes}.
-
-\end{itemize}
+Enhanced a bespoke marine insurance and reinsurance application (Java, Oracle, Swing, and EJB) to support underwriting of aviation and space business, which will earn an estimated \textsterling27 million per year in premiums. A second project enhanced Pyrites to support the German insurance market and is expected to grow  Kiln's insurance portfolio by \textsterling18 million.\\
 
 %\clientwork{Northern Rock}{24 months}
 \clientwork{30 months}{\href{http://www.northernrock.co.uk}{Northern Rock}}{Designer and Developer}
 
-\begin{itemize}
-
-\item Extended and maintained the online customer mortgage Java EJB2 application for Northern Rock, one of England's leading mortgage providers.
-
-\end{itemize}
+Extended and maintained the online customer mortgage Java EJB2 application. Worked with analysts to refine requirements and with quality assurance testers to ensure correctness of implementation.\\
 
 \jobheld{July 2000 to July 2006}{C Squared Consulting}
 
-For the California Department of Justice, David provided the necessary skills to develop a fault tolerant and high performance message switch written in C, BEA Tuxedo, and Oracle, which integrated the \href{http://definitions.uslegal.com/c/clets/}{California Law Enforcement Telecommunications System} with state and federal systems, allowing California to satisfy performance and regulatory requirements. \\
+For the California Department of Justice, David provided the necessary skills to develop a fault tolerant and high performance message switch written in C, BEA Tuxedo, and Oracle, which integrated the \href{http://definitions.uslegal.com/c/clets/}{California Law Enforcement Telecommunications System} with state and federal systems.\\
 
-Led a team of two C and Oracle developers to create a public website for California's \href{http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2003/03/31/MN5478.DTL}{Do Not Call} legislation that mandated a registry of names and phone numbers that telemarketers cannot contact.  Two million Californians registered during the system's lifetime. \\
+Led a team of two C and Oracle developers to create a public website for California's \href{http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2003/03/31/MN5478.DTL}{Do Not Call} legislation that mandated a registry of names and phone numbers that telemarketers cannot contact.\\
 
-Created \emph{XCourt}, a .NET, BizTalk and MSSQL solution to automate California's manual court disposition process.
+Created \emph{XCourt}, a .NET solution to automate California's manual court disposition process.\\
 
 \head{Education}
 
