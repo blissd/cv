@@ -46,29 +46,31 @@
 
 \head{Profile}
 
-High calibre SENIOR JAVA DEVELOPER with 12 years experience in software design and development in \textbf{financial}, commercial insurance, and law enforcement industries.
+High calibre SENIOR JAVA DEVELOPER with 13 years experience in software design and development in \textbf{financial}, commercial insurance, loyalty, and law enforcement industries.
 
 \head{Expertise (non-exhaustive)}
 
 \begin{tabular}{| r | p{14cm} | }
 \hline
-Languages and APIs & Java, SQL, EJB, Spring, Hibernate, JPA, JMS, JAXB, JSP, Swing, Mockito, JUnit, TestNG, Wicket, XML, XSD, XSLT, C, Bourne Shell, Sed, Awk \\
+Languages and APIs & Java, Guava, SQL, EJB, Spring, Hibernate, JPA, JMS, JAXB, JSP, Jackson, Swing, Mockito, JUnit, TestNG, JBehave, Cucumber, Wicket, XML, XSD, XSLT, C, Bourne Shell, Sed, Awk \\
 \hline
-Methodologies & Agile, XP, Waterfall, TDD, BDD \\
+Methodologies & Agile, XP, TDD, BDD \\
 \hline
-Databases & Oracle 10g, MySQL, SQL Server, HSQL, SQLite, PL/SQL \\
+Databases & Oracle 10g, MySQL, Mongo, SQL Server, HSQL, SQLite, PL/SQL \\
 \hline
-Application Servers & JBoss, Tomcat, WebLogic, WebSphere, OC4J \\
+Application Servers & JBoss, Tomcat, Jetty, WebLogic, WebSphere, OC4J \\
 \hline
-Messaging & WebSphere MQ, Active MQ, Oracle AQ, Jersey \\
+Messaging & RabbitMQ, WebSphere MQ, ActiveMQ, Jersey, Rest Easy \\
 \hline
-Build Tools & Maven, Ant, Hudson, Continuum, Bamboo, Archiva, JIRA, Confluence, Crowd, Mingle, CVS, Subversion, Perforce, Git \\
+Build Tools & Maven, Ant, Jenkins/Hudson, Bamboo, JIRA, Confluence, Mingle, CVS, Subversion, Perforce, Git \\
 \hline
 \end{tabular}
 
 \head{Achievements}
 
 \begin{itemize}
+
+\item Developed a new loyalty platform that \textbf{beat the competition} to win new business.
 
 \item Implemented insurance and reinsurance capabilities to earn Kiln Group an estimated \textbf{\textsterling27 million per year} in the Lloyd's Market.
 
@@ -80,6 +82,24 @@ Build Tools & Maven, Ant, Hudson, Continuum, Bamboo, Archiva, JIRA, Confluence, 
 
 \head{Career History}
 
+\clientwork{June 2012 to December 2013}{\href{http://www.aimia.com/}{Aimia}}{Senior Designer and Developer}
+
+\renewals{18 months}{2 renewals}
+
+Aimia (formerly Groupe Aeroplan, formerly Loyalty Management Group) is a global leader of loyalty management and owner of the \href{http://www.nectar.com/}{Nectar} brand of loyalty cards. They required senior java developers to engineer a \href{http://www.aimia.com/English/Services/Aimia-Systems/Loyalty-Platform}{flexible and compelling loyalty platform} to allow Aimia to \textbf{win new business}.\\
+
+The development methodology was agile and scrum with some pair-programming.  The technology stack was Java 7, Spring 3, MySQL, Mongo, RabbitMQ, and Camel, while the architecture was a set of independent services deployed to Amazon Web Services (AWS) and communicating by REST and JMS. Within this environment David spearheaded the adoption of TDD, BDD, and the use of Cucumber, Hamcrest and Guava to improve development practices and \textbf{drive up code quality}.\\
+
+David designed and developed the Event Hub, a fast, reliable, and robust event raising and collection framework using Camel and Mongo. The Event Hub became a key system component when the Aimia Loyalty Platform was re-engineered to an \textbf{event-driven architecture}.\\
+
+David engineered a star-schema data mart which was populated by the Event Hub in realtime. This provided up-to-the-minute business reports for currency accrual/redemption/expiry, and member enrolment demographics. Visualisation of the reports was by the Pentaho BI Server.\\
+
+Spring Security and OAuth secure the services, and David integrated new security functionality to allow members to login to the web frontend using their Facebook credentials.\\
+
+To satisfy bulk file-handling requirements David used Spring Batch and Mongo to develop a batch processing application supporting both inbound and outbound jobs.\\
+
+The Aimia Loyalty Platform has since \textbf{beaten the competition} to become the loyalty platform for a leading car rental company.\\
+
 \clientwork{February 2011 to May 2012}{\href{http://corp.bankofamerica.com/}{Bank of America Merrill Lynch}}{Senior Designer and Developer}
 
 \renewals{15 months}{3 renewals}
@@ -90,7 +110,7 @@ David partnered with ThoughtWorks to deliver GLPv4, a re-write of BAML's \textbf
 
 David worked closely with the main stakeholders and business analysts to develop the master story list, which involved discussing technical issues with non-technical staff, and using his technical experience to estimate story points. David also worked closely with the testing team to develop BDD JBehave stories that would demonstrate in non-technical business language that the liquidity platform had met its business requirements.\\
 
-Development used agile and scrum processes and involved several months of pair-programming. To develop GLPv4, David leveraged Java, Spring, Oracle, WebSphere MQ and REST to provide a set of compartmentalized fault-tolerant service domains communicating via JMS messaging and HTTP RESTful calls. Within domains database consistency is maintained by JTA and XA, while between domains eventual consistency is ensured by idempotency and compensating transactions.\\
+Development used agile and scrum processes including several months of pair-programming. To develop GLPv4, David leveraged Java, Spring, Oracle, WebSphere MQ and REST to provide a set of compartmentalized fault-tolerant service domains communicating via JMS messaging and HTTP RESTful calls. Within domains database consistency is maintained by JTA and XA, while between domains eventual consistency is ensured by idempotency and compensating transactions.\\
 
 David has gained knowledge of the liquidity problem space and Treasury concerns. He has broadened his practical experience of fault-tolerant, highly parallel messaging systems.\\
 
@@ -100,7 +120,7 @@ RDF Group is a supplier of IT solutions and staff and provided David's expertise
 
 \clientwork{18 months}{\href{http://www.aimia.com/}{Aimia}}{Senior Developer, Technical Architect}
 
-Aimia (formerly Groupe Aeroplan, formerly Loyalty Management Group), is a global leader of loyalty management and owner of the \href{http://www.nectar.com/}{Nectar} brand of loyalty cards. They required a senior Java developer to enhance their \href{http://www.aimia.com/English/Services/Loyalty-Analytics/default.aspx}{loyalty analytics platform}, SelfServe, and a technical architect to provide guidance and oversight for their diverse array of projects. SelfServe reduces report processing time by a factor of \textbf{60}---manually produced reports that would run in \textbf{5 hours} are now automated and run in less than \textbf{5 minutes}.\\
+Aimia required a senior Java developer to enhance their \href{http://www.aimia.com/English/Services/Loyalty-Analytics/default.aspx}{loyalty analytics platform}, SelfServe, and a technical architect to provide guidance and oversight for their diverse array of projects. SelfServe reduces report processing time by a factor of \textbf{60}---manually produced reports that would run in \textbf{5 hours} are now automated and run in less than \textbf{5 minutes}.\\
 
 David was comissioned to replace a problematic JavaScript-based SQL templating system, whose brittleness, inflexibity and untestability was endangering project deadlines, of which failure to meet would result in stiff contractual penalties. David worked closely with data analysts to understand how a SQL templating system would have to integrate with their reports, and then developed a fast, flexible, and testable Java SQL templating engine which was easy to develop reports for. David then provided training sessions for the offshore development team so they were able to take over and provide ongoing support. Thanks to the new SQL templating system, \textbf{deadlines were met} and \textbf{financial penalties avoided}. \\
 
