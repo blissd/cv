@@ -2,8 +2,8 @@
 .PHONY: pdf
 pdf: cv.pdf
 
-.PHONY: doc
-doc: cv.docx
+.PHONY: docx
+docx: cv.docx
 
 cv.pdf: cv.tex
 	pdflatex cv.tex
