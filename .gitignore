@@ -1,1 +1,4 @@
-cv.dvi
+*.dvi
+*.docx
+*.odt
+*.pdf
