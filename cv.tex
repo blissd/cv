@@ -16,6 +16,7 @@
 \usepackage{needspace}
 
 \newcommand{\head}[1]{\needspace{6em}\begin{center}{\large{\textbf{\sc{#1}}}}\nopagebreak\end{center}}
+\newcommand{\expertise}[2]{\item[#1] #2}
 \newcommand{\jobheld}[2]{\textbf{#1\hfill #2}\nopagebreak}
 \newcommand{\clientwork}[3]{\textbf{#1\hfill#3\hfill#2}\nopagebreak}
 \newcommand{\renewals}[2]{(#2)\nopagebreak}
@@ -47,17 +48,21 @@ SENIOR JAVA DEVELOPER with 18 years experience in software design and developmen
 
 \head{Summary of Technical Expertise}
 
-\textbf{Languages and APIs:} Scala, Java, Python, SQL, Spring, Hibernate, EJB, JPA, JMS, JAXB,  Mockito, JUnit, JBehave, Cucumber, XML, XSD, XSLT, C, Bourne Shell, Sed, Awk, UNIX CLI.
+\begin{description}
 
-\textbf{Deployment:} Docker, Kubernetes, JBoss, Tomcat, Jetty.
+\expertise{Languages and APIs}{Scala, Java, Python, SQL, Spring, Hibernate, EJB, JPA, JMS, JAXB,  Mockito, JUnit, JBehave, Cucumber, XML, XSD, XSLT, C, Bourne Shell, Sed, Awk, UNIX CLI.}
 
-\textbf{Databases:} Cassandra, Oracle, MySQL, Mongo.
+\expertise{Deployment}{Docker, Kubernetes, JBoss, Tomcat, Jetty.}
 
-\textbf{Messaging:} Apache Kafka, Rabbit MQ, Apache Active MQ, REST.
+\expertise{Databases}{Cassandra, Oracle, MySQL, Mongo.}
 
-\textbf{Build Tools:} sbt, Gradle, Maven, Ant, make, Jenkins, Git.
+\expertise{Messaging}{Apache Kafka, Rabbit MQ, Apache Active MQ, REST.}
 
-\textbf{Methodologies:} Agile, XP, TDD, BDD.
+\expertise{Build Tools}{sbt, Gradle, Maven, Ant, make, Jenkins, Git.}
+
+\expertise{Methodologies}{Agile, XP, TDD, BDD.}
+
+\end{description}
 
 \head{Achievements}
 

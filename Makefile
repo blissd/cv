@@ -14,5 +14,8 @@ cv.docx: cv.tex
 			--to=docx         \
 			--output=cv.docx
 
-clean:
+clean: clean-scratch
 	rm -f cv.pdf cv.doc
+
+clean-scratch:
+	rm -f *.aux *.log *.out
