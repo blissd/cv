@@ -19,7 +19,7 @@
 \newcommand{\expertise}[2]{\item[#1] #2}
 \newcommand{\jobheld}[2]{\textbf{#1\hfill #2}\nopagebreak}
 \newcommand{\clientwork}[3]{\textbf{#1\hfill#3\hfill#2}\nopagebreak}
-\newcommand{\renewals}[2]{(#2)\nopagebreak}
+\newcommand{\renewals}[1]{(#1 renewals)\nopagebreak}
 \newcommand{\keyskills}[1]{\vspace{10pt}Key Skills: #1.}
 \newcommand{\tab}{\hspace{2em}}
 \newcommand{\education}[3]{#1\tab#2\hfill#3}
@@ -105,6 +105,8 @@ SENIOR JAVA DEVELOPER with 18 years experience in software design and developmen
 
 \clientwork{November 2014 to present day}{\href{https://www.hivehome.com}{Centrica Hive}}{Big Data Engineer}
 
+\renewals{5}
+
 British Gas Connected Homes collects a tremendous amount of data from smart meters, which can submit a reading every 30, and desired developing a data platform to analyse this data and provide valuable insight to their customers to retain a lead in Britain’s competitive energy market. Data science is applied to produce personalized energy breakdowns so customers can understand their own energy usage under the British Gas “My Energy” product.\\
 
 David joined the British Gas Connected Homes data platform team to productionize data science algorithms. The primary task is working with data engineers to understand algorithms created by data scientists and to implement them in Scala to run on an analytics cluster built on Spark, and Cassandra.\\
@@ -113,64 +115,59 @@ Productionizing involves understanding the data required by an algorithm so it m
 
 Other tasks included developing a data bulk loading tool for importing tremendous amounts of data into Cassandra after standard tools for the task proved inadequate, versioning algorithm outputs within Cassandra, designing the means for importing ten times the data into the data platform for the next set of deliverables, and automating the execution of data science processing jobs.\\
 
-The technology stack was Scala, Spark, Cassandra, Java, Spring, and REST.\\
+Scala, Spark, Kafka, Cassandra, Python, Java, Spring, and REST.\\
 
-\clientwork{August 2014 to November 2014 }{\href{http://www.postoffice.co.uk/}{Post Office}}{Senior Software Engineer}
+\clientwork{August 2014 to November 2014 }{\href{http://www.postoffice.co.uk/}{Post Office}}{Developer}
 
 Partnered with \href{http://www.opencredo.com/}{Open Credo} to deliver a \textbf{financial reconcilliation engine} for the Post Office, as part of their \emph{Common Digital Platform}. The application will reconcile financial transactions across Post Office products and identify transactions that cannot be balanced, and provide a reporting user interface for financial service centre staff to investigate unbalanced transactions.\\
 
 The technology stack was Java, Spring Batch, Spring Integration, Spring MVC, RabbitMQ, REST, Google Guava, MySQL, and Tomcat.\\
 
-\clientwork{January 2014 to July 2014}{\href{http://www.monitise.com/}{Monitise}}{Senior Designer and Developer}
+\clientwork{January 2014 to July 2014}{\href{http://www.monitise.com/}{Monitise}}{Developer}
 
 Developed the credit card payment user interface and backend for Yaap Shopping, a first of its kind venture between a telecoms company (Telef\'onica) and a bank (Santander and Caixa)\\
 
 Evaluated metrics monitoring solutions for Monitise to deploy across all their platforms. For a proof-of-concept Netflix Servo was integrated as an OSGi service in the JBoss Fuse ESB.\\
 
-\clientwork{June 2012 to December 2013}{\href{http://www.aimia.com/}{Aimia}}{Senior Designer and Developer}
+\clientwork{June 2012 to December 2013}{\href{http://www.aimia.com/}{Aimia}}{Developer}
 
-\renewals{18 months}{2 renewals}
+\renewals{2}
 
-Aimia is a global leader of loyalty management and owner of the \href{http://www.nectar.com/}{Nectar} brand of loyalty cards. They required senior java developers to engineer a \href{https://www.aimia.com/our-businesses/insight-and-loyalty-solutions/aimia-loyalty/}{flexible and compelling loyalty platform} to allow Aimia to \textbf{win new business}.\\
+Aimia is a global leader of loyalty management and owner of the \href{http://www.nectar.com/}{Nectar} brand of loyalty cards. Delivered a flexible and compelling loyalty platform to allow Aimia to \textbf{win new business}. Migrated the application to an \textbf{event-driven architecture} by developing an eventing framework with Apache Camel and Mongo DB. Designed a data wharehouse star-schema for support BI reports. Developed a batch processing framework (Spring Batch, Mongo DB) for ingesting large files from third-party suppliers. Introduced property-based testing and BDD to \textbf{drive up code quality}.\\
 
-The development methodology was agile and scrum with some pair-programming.  The technology stack was Java 7, Spring 3, MySQL, Mongo, RabbitMQ, and Camel, while the architecture was a set of independent services deployed to Amazon Web Services (AWS) and communicating by REST and JMS. Within this environment David spearheaded the adoption of TDD, BDD, and the use of Cucumber, Hamcrest and Guava to improve development practices and \textbf{drive up code quality}.\\
+AWS, REST, Camel, Mongo DB, Rabbit MQ, Java, Spring, MySQL, asynchronous events, pair programming.\\
 
-David designed and developed the Event Hub, a fast, reliable, and robust event raising and collection framework using Camel and Mongo. The Event Hub became a key system component when the Aimia Loyalty Platform was re-engineered to an \textbf{event-driven architecture}.\\
+\clientwork{February 2011 to May 2012}{\href{http://corp.bankofamerica.com/}{Bank of America Merrill Lynch}}{Developer and Technical Architect}
 
-
-The Aimia Loyalty Platform has since \textbf{beaten the competition} to become the loyalty platform for a leading car rental company.\\
-
-\clientwork{February 2011 to May 2012}{\href{http://corp.bankofamerica.com/}{Bank of America Merrill Lynch}}{Senior Designer and Developer}
-
-\renewals{15 months}{3 renewals}
+\renewals{3}
 
 %http://www.marketwatch.com/story/bank-of-america-merrill-lynch-adds-physical-cash-concentration-to-global-liquidity-platform-2012-03-19
 
-Partnered with ThoughtWorks to deliver a \textbf{Global Liquidity Platform} that became a solid foundation for rapidly developing novel market-leading \textbf{sweeping} and \textbf{pooling} products, which included \emph{Multi-Currency Notional Pooling}, \emph{Single Currency Notional Pooling}, and \emph{\href{http://www.marketwatch.com/story/bank-of-america-merrill-lynch-adds-physical-cash-concentration-to-global-liquidity-platform-2012-03-19}{Physical Cash Concentration}}.\\
+Delivered a \textbf{Global Liquidity Platform} that became a solid foundation for rapidly developing novel market-leading \textbf{sweeping} and \textbf{pooling} products, which included \emph{Multi-Currency Notional Pooling}, \emph{Single Currency Notional Pooling}, and \emph{\href{http://www.marketwatch.com/story/bank-of-america-merrill-lynch-adds-physical-cash-concentration-to-global-liquidity-platform-2012-03-19}{Physical Cash Concentration}}.\\
 
-Technology and techniques: Java, Spring, Hibernate, idempotency, compensating transactions, parallelism.\\
+Java, Spring, Hibernate, idempotency, compensating transactions, parallelism.\\
 
 \clientwork{October 2006 to January 2011}{\href{http://www.rdfgroup.com/}{RDF Group}}{Lead Practioner}
 
-RDF Group is a supplier of IT solutions and staff and provided David's expertise to Kiln Group, Aimia, and Northern Rock.\\
+RDF Group is a supplier of IT solutions and staff and provided David's expertise to Aimia, Kiln Group, and Northern Rock.\\
 
-\clientwork{18 months}{\href{http://www.aimia.com/}{Aimia}}{Senior Developer, Technical Architect}
+\clientwork{18 months}{\href{http://www.aimia.com/}{Aimia}}{Developer and Technical Architect}
 
-David was comissioned to replace a problematic JavaScript-based SQL templating system, whose brittleness, inflexibity and untestability was endangering project deadlines, of which failure to meet would result in stiff contractual penalties. David worked closely with data analysts to understand how a SQL templating system would have to integrate with their reports, and then developed a fast, flexible, and testable Java SQL templating engine which was easy to develop reports for. David then provided training sessions for the offshore development team so they were able to take over and provide ongoing support. Thanks to the new SQL templating system, \textbf{deadlines were met} and \textbf{financial penalties avoided}. \\
+Developed a fast, flexible, and testable Java SQL templating engine. Provided training sessions for the offshore development team so they were able to take over development and provide ongoing support. Thanks to the new SQL templating system, \textbf{deadlines were met} and \textbf{financial penalties avoided}. \\
 
 Led the design and development of a \emph{Campaign Analysis Platform}, using Java, Wicket, and SQL and integrating with SelfServe.\\
 
-\clientwork{9 months}{\href{http://www.tokiomarinekiln.com/}{Kiln Group}}{Lead Designer and Developer}
+\clientwork{9 months}{\href{http://www.tokiomarinekiln.com/}{Kiln Group}}{Developer}
 
-Enhanced a bespoke marine insurance and reinsurance application (Java, Oracle, Swing, and EJB) to support underwriting of aviation and space business, which will earn an estimated \textsterling27 million per year in premiums. A second project enhanced Pyrites to support the German insurance market and is expected to grow  Kiln's insurance portfolio by \textsterling18 million.\\
+Enhanced a bespoke marine insurance and reinsurance application (Java, Oracle, Swing, and EJB) to support underwriting of aviation and space business, which will earn an estimated \textsterling27 million per year in premiums.\\
 
-\clientwork{2 years}{\href{http://www.northernrock.co.uk}{Northern Rock}}{Designer and Developer}
+\clientwork{2 years}{\href{http://www.northernrock.co.uk}{Northern Rock}}{Developer}
 
-Extended and maintained the online customer mortgage Java EJB2 application. Worked with analysts to refine requirements and with quality assurance testers to ensure correctness of implementation.\\
+Extended and maintained an online customer mortgage Java EJB2 application.\\
 
 \jobheld{July 2000 to July 2006}{C Squared Consulting}
 
-For the California Department of Justice, David provided the necessary skills to develop a fault-tolerant and high-performance message switch written in C, BEA Tuxedo, and Oracle, which integrated the \href{http://definitions.uslegal.com/c/clets/}{California Law Enforcement Telecommunications System} with state and federal systems.\\
+Developed a fault-tolerant and high-performance message switch (C, BEA Tuxedo, and Oracle), which integrated the \href{http://definitions.uslegal.com/c/clets/}{California Law Enforcement Telecommunications System} with state and federal systems.\\
 
 Developed California's \href{http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2003/03/31/MN5478.DTL}{Do Not Call} system.\\
 
