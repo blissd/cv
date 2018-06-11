@@ -104,13 +104,11 @@ I am a software engineer with hands-on experience creating large-scale data plat
 
 \renewals{5}
 
-Centrica Hive collects a tremendous amount of data from smart meters, which can submit a reading every 30, and desired developing a data platform to analyse this data and provide valuable insight to their customers to retain a lead in Britain’s competitive energy market. Data science is applied to produce personalized energy breakdowns so customers can understand their own energy usage under the British Gas “My Energy” product.\\
+Designed and developed pipelines with Kafka, Kakfa Streams, and Apache Spark, to implement data science algorithms to deliver customer-facing products derived from {\href{https://www.hivehome.com}{Hive}} thermostat data. Algorithms were packaged as Docker images and deployed with Helm charts to a Kubernetes cluster.\\
 
-David joined the Centrica Hive data platform team to productionize data science algorithms. The primary task is working with data engineers to understand algorithms created by data scientists and to implement them in Scala to run on an analytics cluster built on Spark, and Cassandra.\\
+Worked with data scientists to deliver a Kafka Streams application to analyze thermostat state, detect when a customer's heating fails, and notify the customer of that failure. A batch-based Python prototype algorithm was delivered by data scientists, but was unsuitable for real-time failure detection, so David redesigned the algorithm to work as a real-time Kafka Streams application.\\
 
-Productionizing involves understanding the data required by an algorithm so it may be modelled appropriately in the Cassandra database, developing Spark pipelines to parallelize processing, and implementing algorithms using machine learning libraries such as Weka and techniques such as random forests.\\
-
-Other tasks included developing a data bulk loading tool for importing tremendous amounts of data into Cassandra after standard tools for the task proved inadequate, versioning algorithm outputs within Cassandra, designing the means for importing ten times the data into the data platform for the next set of deliverables, and automating the execution of data science processing jobs.\\
+Designed and developed a data pipeline to feed smart meter readings into algorithms to deliver energy usage insights to {\href{https://www.britishgas.co.uk}{British Gas}} customers. Applied a random forest, from the {\href{Weka}{https://www.cs.waikato.ac.nz/ml/weka/}} machine learning library, to classify customer energy usage. \\
 
 \techstack{Scala, Spark, Kafka, Kafka Streams, Cassandra, Python, Kubernetes, Helm, Docker.}\\
 
