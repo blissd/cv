@@ -1,0 +1,28 @@
+# Markdown to PDF build copied from
+# https://github.com/sladkoff/resume
+
+on:
+  push:
+    tags:
+      - '*'
+
+name: "Build PDF"
+
+jobs:
+  build:
+    name: "Build and Release PDF"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Checkout"
+        uses: "actions/checkout@v3"
+      - name: "Build PDF from Markdown"
+        uses: "BaileyJM02/markdown-to-pdf@v1.2.0"
+        with:
+          input_path: "README.md"
+          output_dir: "out"
+      - name: "Rename PDF"
+        run: "cp out/README.pdf ./david_bliss_cv.pdf"
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: david_bliss_cv.pdf
