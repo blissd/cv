@@ -20,7 +20,9 @@ jobs:
         # Strip cutesy icons.
         # Convert curly quotes to straight quotes.
         # Convert em-dashes to hyphens.
+        # Remove first line with badges. 
         run: |
+          sed -i '1d' README.md
           < README.md  tr --delete '🪪✅🌟🧑‍💻👨‍🎓🏅' > README2.md
           < README2.md tr "’" "'" > README3.md
           < README3.md tr '“”' '""' > README4.md
