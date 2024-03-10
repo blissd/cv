@@ -9,26 +9,26 @@ Well-practiced software engineer with over 20 years of experience building softw
 
 ## 🌟 Skills
 
-Core
-: Scala, Python Golang, Kafka, Kafka Streams, Apache Spark, Kubernetes, Helm, Cassandra, AWS, big data, batch and stream processing, microservices.
+___Core___  
+  Scala, Python Golang, Kafka, Kafka Streams, Apache Spark, Kubernetes, Helm, Cassandra, AWS, big data, batch and stream processing, microservices.
 
-AWS
-: EMR, S3, ECR, Kinesis, Data Pipelines.
+___AWS___  
+  EMR, S3, ECR, Kinesis, Data Pipelines.
 
-Languages and APIs
-: Scala, Python, Golang, Java, SQL, Spring, Hibernate, JUnit, Linux.
+___Languages and APIs___  
+  Scala, Python, Golang, Java, SQL, Spring, Hibernate, JUnit, Linux.
 
-Databases
-: Cassandra, Mongo, Oracle, MySQL, SQLite.
+___Databases___  
+  Cassandra, Mongo, Oracle, MySQL, SQLite.
 
-Messaging
-: Kafka, AWS Kinesis, Rabbit MQ, Apache Active MQ, REST.
+___Messaging___  
+  Kafka, AWS Kinesis, Rabbit MQ, Apache Active MQ, REST.
 
-Build Tools
-: sbt, Gradle, Maven, Ant, make, Jenkins, Git.
+___Build Tools___  
+  sbt, Gradle, Maven, Ant, make, Jenkins, Git.
 
-Methodologies
-: Agile, XP, TDD, BDD.
+___Methodologies___  
+  Agile, XP, TDD, BDD.
 
 ## 🧑‍💻 Experience
 
