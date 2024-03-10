@@ -42,9 +42,9 @@ _Kafka, Terraform, Terragrunt, DBT, Confluent Cloud, Snowflake._
 
 Developed Golang tooling for scrubbing and importing 24 terabytes of CSV data into AWS Athena, allowing NewDay to migrate away from a third-party service and reduce costs by __£1.4 million per year__.
 
-Solved a Scala Akka Actor batch processing system’s AWS S3 “small files problem”. Before designing and implementing a solution a 40GB input file would result in 80,000 very small Parquet files being written to S3, after the changes a small number of large Parquet files were written to S3. This __reduced__ file processing time __by two hours__ allowing NewDay to meet SLAs, removed the need for a time-consuming file consolidation process, reduced storage space by 10 times, and reduced processing costs.
+Solved a Scala Akka Actor batch processing system's AWS S3 "small files problem". Before designing and implementing a solution a 40GB input file would result in 80,000 very small Parquet files being written to S3, after the changes a small number of large Parquet files were written to S3. This __reduced__ file processing time __by two hours__ allowing NewDay to meet SLAs, removed the need for a time-consuming file consolidation process, reduced storage space by 10 times, and reduced processing costs.
 
-Designed and implemented an AWS lambda to refresh views in the Dremio data lake engine. The solution __reduced processing time and costs__ for updating views and centralised view configuration into a single location per environment, which gave data engineers a complete overview of an environment’s view requirements.
+Designed and implemented an AWS lambda to refresh views in the Dremio data lake engine. The solution __reduced processing time and costs__ for updating views and centralised view configuration into a single location per environment, which gave data engineers a complete overview of an environment's view requirements.
 
 Designed and implemented a Scala FS2 batch job to process large JSON files and convert to Parquet tables.
 Wrote a Golang utility for quickly deleting records from AWS DynamoDB.
@@ -65,7 +65,7 @@ _AWS, GCP, Micro-services, Scala, Kubernetes, Kafka, Cassandra, Docker, Helm, La
 
 Designed and developed pipelines with Kafka, Kakfa Streams, and Apache Spark, to implement data science algorithms to deliver customer-facing products derived from Hive thermostat data. Algorithms were packaged as Docker images and deployed with Helm charts to a Kubernetes cluster running in AWS. Processes at a rate of __100,000+__ messages per second.
 
-Worked with data scientists to deliver a Kafka Streams application to analyse thermostat state, detect when a customer’s heating fails, and notify the customer of that failure. A batch-based Python prototype algorithm was delivered by data scientists, but was unsuitable for real-time failure detection, so I redesigned the algorithm to work as a __real-time Kafka Streams__ application.
+Worked with data scientists to deliver a Kafka Streams application to analyse thermostat state, detect when a customer's heating fails, and notify the customer of that failure. A batch-based Python prototype algorithm was delivered by data scientists, but was unsuitable for real-time failure detection, so I redesigned the algorithm to work as a __real-time Kafka Streams__ application.
 
 Designed and developed a data pipeline to feed smart meter readings into algorithms to deliver energy usage insights to British Gas customers. Applied a __random forest__, from the Weka machine learning library, to classify customer energy usage.
 
