@@ -3,26 +3,35 @@
 
 on:
   push:
-    tags:
-      - "*"
+    branches:
+      - main
 
-name: "Build PDF"
+name: Build PDF
 
 jobs:
   build:
-    name: "Build and Release PDF"
+    name: Build and Release PDF
     runs-on: ubuntu-latest
     steps:
-      - name: "Checkout"
-        uses: "actions/checkout@v3"
-      - name: "Build PDF from Markdown"
-        uses: "BaileyJM02/markdown-to-pdf@v1.2.0"
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Build PDF from Markdown
+        uses: BaileyJM02/markdown-to-pdf@v1.2.0
         with:
-          input_path: "README.md"
-          output_dir: "out"
-      - name: "Rename PDF"
-        run: "cp out/README.pdf ./david_bliss_cv.pdf"
+          input_path: README.md
+          output_dir: out
+      - name: Rename PDF
+        run: cp out/README.pdf ./david_bliss_cv.pdf
+      - name: Semantic Release
+        id: semantic
+        uses: cycjimmy/semantic-release-action@v4
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          branch: main
       - name: Release
+        if: steps.semantic.outputs.new_release_published == 'true'
         uses: softprops/action-gh-release@v2
         with:
+          tag_name: ${{ steps.semantic.outputs.new_release_git_tag }}
           files: david_bliss_cv.pdf
