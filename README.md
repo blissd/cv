@@ -10,25 +10,25 @@ Well-practiced software engineer with over 20 years of experience building softw
 ## 🌟 Skills
 
 ___Core___  
-  Scala, Python Golang, Kafka, Kafka Streams, Apache Spark, Kubernetes, Helm, Cassandra, AWS, big data, batch and stream processing, microservices.
+  Scala, Python Golang, Kafka, Kafka Streams, Apache Spark, Kubernetes, Helm, Cassandra, AWS, big data, batch and stream processing, microservices.
 
 ___AWS___  
-  EMR, S3, ECR, Kinesis, Data Pipelines.
+  EMR, S3, ECR, Kinesis, Data Pipelines.
 
 ___Languages and APIs___  
-  Scala, Python, Golang, Java, SQL, Spring, Hibernate, JUnit, Linux.
+  Scala, Python, Golang, Java, SQL, Spring, Hibernate, JUnit, Linux.
 
 ___Databases___  
-  Cassandra, Mongo, Oracle, MySQL, SQLite.
+  Cassandra, Mongo, Oracle, MySQL, SQLite.
 
 ___Messaging___  
-  Kafka, AWS Kinesis, Rabbit MQ, Apache Active MQ, REST.
+  Kafka, AWS Kinesis, Rabbit MQ, Apache Active MQ, REST.
 
 ___Build Tools___  
-  sbt, Gradle, Maven, Ant, make, Jenkins, Git.
+  sbt, Gradle, Maven, Ant, make, Jenkins, Git.
 
 ___Methodologies___  
-  Agile, XP, TDD, BDD.
+  Agile, XP, TDD, BDD.
 
 ## 🧑‍💻 Experience
 
@@ -114,33 +114,33 @@ Lead development of California's "Do Not Call" system.
 
 ## 🏅 Certifications and Courses
 
-2020
-: Building Reusable Code from Scratch with Rust @ [Udemy](https://www.udemy.com/certificate/UC-49c1ca8a-df98-444e-bc1a-32c21d703821/)
-: The Rust Programming Language @ [Udemy](https://www.udemy.com/certificate/UC-7a0ad516-3616-4afa-b89b-989be6fe981f/)
-: Build a TCP Chat App with Go @ [Udemy](https://www.udemy.com/certificate/UC-INP6UTFA)
-: Complete Guide to Protocol Buffers in Golang/Python/Java @ [Udemy](https://www.udemy.com/certificate/UC-Q1168M4T)
-: Go: The Complete Developer's Guide @ [Udemy](https://www.udemy.com/certificate/UC-2DGJ1LMN)
-: REST API JWT Auth with Golang @ [Udemy](https://www.udemy.com/certificate/UC-D0WJ5R27)
-: Web Development with Golang @ [Udemy](https://www.udemy.com/certificate/UC-1LJCOPO9)
-: gRPC Golang Master Class: Build Modern APIs and Microservices @ [Udemy](https://www.udemy.com/certificate/UC-6F7LN2C4)
-: Learn How to Code Golang @ [Udemy](https://www.udemy.com/certificate/UC-WX2AIINH/)
+___2020___  
+  Building Reusable Code from Scratch with Rust @ [Udemy](https://www.udemy.com/certificate/UC-49c1ca8a-df98-444e-bc1a-32c21d703821/)  
+  The Rust Programming Language @ [Udemy](https://www.udemy.com/certificate/UC-7a0ad516-3616-4afa-b89b-989be6fe981f/)  
+  Build a TCP Chat App with Go @ [Udemy](https://www.udemy.com/certificate/UC-INP6UTFA)  
+  Complete Guide to Protocol Buffers in Golang/Python/Java @ [Udemy](https://www.udemy.com/certificate/UC-Q1168M4T)  
+  Go: The Complete Developer's Guide @ [Udemy](https://www.udemy.com/certificate/UC-2DGJ1LMN)  
+  REST API JWT Auth with Golang @ [Udemy](https://www.udemy.com/certificate/UC-D0WJ5R27)  
+  Web Development with Golang @ [Udemy](https://www.udemy.com/certificate/UC-1LJCOPO9)  
+  gRPC Golang Master Class: Build Modern APIs and Microservices @ [Udemy](https://www.udemy.com/certificate/UC-6F7LN2C4)  
+  Learn How to Code Golang @ [Udemy](https://www.udemy.com/certificate/UC-WX2AIINH/)  
 
-2019
-: Programming Reactive Systems @ [edX](https://courses.edx.org/certificates/3e7d7309b6d4469784d60ccccbe4562f)
+___2019___  
+  Programming Reactive Systems @ [edX](https://courses.edx.org/certificates/3e7d7309b6d4469784d60ccccbe4562f)
 
-2017
-: Blockchain for Business—An Introduction to Hyperledger Technologies @ [edX](https://courses.edx.org/certificates/d)
-: Big Data Analysis with Scala and Spark @ [Coursera](https://www.coursera.org/account/accomplishments/verify/BT95Z35S6LVX)
+___2017___  
+  Blockchain for Business—An Introduction to Hyperledger Technologies @ [edX](https://courses.edx.org/certificates/d)  
+  Big Data Analysis with Scala and Spark @ [Coursera](https://www.coursera.org/account/accomplishments/verify/BT95Z35S6LVX)  
 
-2016
-: Parallel Programming @ [Coursera](https://www.coursera.org/account/accomplishments/verify/CJ4JSLUQK73D)
-: Retrieving, Processing, and Visualizing Data with Python @ [Coursera](https://www.coursera.org/account/accomplishments/verify/8MKC3G5RN9S3)
+___2016___  
+  Parallel Programming @ [Coursera](https://www.coursera.org/account/accomplishments/verify/CJ4JSLUQK73D)  
+  Retrieving, Processing, and Visualizing Data with Python @ [Coursera](https://www.coursera.org/account/accomplishments/verify/8MKC3G5RN9S3)  
 
-2015
-: Using Databases with Python @ [Coursera](https://www.coursera.org/account/accomplishments/verify/JNESYEJ5FURJ)
-: Using Python to Access Web Data @ [Coursera](https://www.coursera.org/account/accomplishments/verify/BVY6EDX4Z2PM)
-: Python Data Structures @ [Coursera](https://www.coursera.org/account/accomplishments/verify/VHVY2836QWWS)
-: Principles of Functional Reactive Programming in Scala @ [Coursera](https://www.coursera.org/account/accomplishments/records/8jPph3vAjsWdaQeW)
+___2015___  
+  Using Databases with Python @ [Coursera](https://www.coursera.org/account/accomplishments/verify/JNESYEJ5FURJ)  
+  Using Python to Access Web Data @ [Coursera](https://www.coursera.org/account/accomplishments/verify/BVY6EDX4Z2PM)  
+  Python Data Structures @ [Coursera](https://www.coursera.org/account/accomplishments/verify/VHVY2836QWWS)  
+  Principles of Functional Reactive Programming in Scala @ [Coursera](https://www.coursera.org/account/accomplishments/records/8jPph3vAjsWdaQeW)  
 
-2014
-: Functional Programming Principles in Scala @ [Cousera](https://www.coursera.org/maestro/api/certificate/get_certificate?verify-code=87DZAXY7SA)
+___2014___  
+  Functional Programming Principles in Scala @ [Cousera](https://www.coursera.org/maestro/api/certificate/get_certificate?verify-code=87DZAXY7SA)
