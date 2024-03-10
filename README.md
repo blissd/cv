@@ -1,7 +1,7 @@
 # 🪪 David Bliss
 Software engineer near London and Southeast England
 
-[Phone](tel:+44 7517 017350) · [Email](mailto:contact@yottabyte.uk) [Website](https://yottabyte.uk) · [LinkedIn](https://www.linkedin.com/in/davidbliss) · [GitHub](https://github.com/blissd)
+[Email](mailto:contact@yottabyte.uk) [Website](https://yottabyte.uk) · [LinkedIn](https://www.linkedin.com/in/davidbliss) · [GitHub](https://github.com/blissd)
 
 ## ✅ Profile
 
