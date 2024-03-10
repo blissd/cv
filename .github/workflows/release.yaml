@@ -18,7 +18,7 @@ jobs:
       - name: Sanitize
         # Some unicode characters don't cause problems for the PDF.
         run: |
-          tr --delete '🪪✅🌟🧑‍💻 👨‍🎓🏅' README.md > README2.md
+          < README.md tr --delete '🪪✅🌟🧑‍💻👨‍🎓🏅' > README2.md
       - name: Build PDF from Markdown
         uses: BaileyJM02/markdown-to-pdf@v1.2.0
         with:
