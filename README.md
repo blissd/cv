@@ -1,3 +1,5 @@
+[![](https://img.shields.io/badge/PDF-Download-268bd2?labelColor=073642&amp;style=for-the-badge)](https://github.com/blissd/cv/releases/latest/download/david_bliss_cv.pdf)
+
 # 🪪 David Bliss
 Software engineer near London and Southeast England
 
