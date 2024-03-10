@@ -1,7 +1,7 @@
 # 🪪 David Bliss
 Software engineer near London and Southeast England
 
-[Email](mailto:contact@yottabyte.uk) [Website](https://yottabyte.uk) · [LinkedIn](https://www.linkedin.com/in/davidbliss) · [GitHub](https://github.com/blissd)
+[Email](mailto:contact@yottabyte.uk) · [Website](https://yottabyte.uk) · [LinkedIn](https://www.linkedin.com/in/davidbliss) · [GitHub](https://github.com/blissd)
 
 ## ✅ Profile
 

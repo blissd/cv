@@ -22,7 +22,8 @@ jobs:
           output_dir: out
       - name: Rename PDF
         run: cp out/README.pdf ./david_bliss_cv.pdf
-      - uses: actions/upload-artifact@v4
+      - name: Upload Artefact
+        uses: actions/upload-artifact@v4
         with:
           name: david_bliss_cv.pdf
           path: david_bliss_cv.pdf
