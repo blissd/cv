@@ -33,13 +33,13 @@ ___Methodologies___
 
 ## 🧑‍💻 Experience
 
-### Data Engineer at [NewDay](https://www.newday.co.uk/) — _July 2022 to present_
+### Data Engineer at [NewDay](https://www.newday.co.uk/) _(July 2022—present)_
 
 Involved with the design and implementation of a new data streaming platform built in Confluent Cloud and Snowflake. Designed DBT project for creating and managing data models. 
 
 _Kafka, Terraform, Terragrunt, DBT, Confluent Cloud, Snowflake._
 
-### Scala/Python/Golang Data Engineer at [NewDay](https://www.newday.co.uk/) — _April 2020 to October 2021_
+### Scala/Python/Golang Data Engineer at [NewDay](https://www.newday.co.uk/) _(April 2020—October 2021)_
 
 Developed Golang tooling for scrubbing and importing 24 terabytes of CSV data into AWS Athena, allowing NewDay to migrate away from a third-party service and reduce costs by __£1.4 million per year__.
 
@@ -52,7 +52,7 @@ Wrote a Golang utility for quickly deleting records from AWS DynamoDB.
 
 _Scala, Python, Golang, FS2, AWS Batch, AWS Lambda, Dremio._
 
-### Scala Microservice Engineer at [11:FS Foundry](https://www.11fs.com) — _August 2019 to February 2020_
+### Scala Microservice Engineer at [11:FS Foundry](https://www.11fs.com) _(August 2019—February 2020)_
 
 Designed and developed microservices to support Foundry, a ledger-first API driven banking platform. The platform was built using the Lightbend Lagom microservices framework, Scala, Cassandra, and Kafka.
 
@@ -62,7 +62,7 @@ Led the adoption of the Apache Avro message format for Kafka messages to improve
 
 _AWS, GCP, Micro-services, Scala, Kubernetes, Kafka, Cassandra, Docker, Helm, Lagom, Avro._
 
-### Big Data Engineer at [Hive](https://www.hivehome.com/) — _November 2014 to July 2019_
+### Big Data Engineer at [Hive](https://www.hivehome.com/) _(November 2014—July 2019)_
 
 Designed and developed pipelines with Kafka, Kakfa Streams, and Apache Spark, to implement data science algorithms to deliver customer-facing products derived from Hive thermostat data. Algorithms were packaged as Docker images and deployed with Helm charts to a Kubernetes cluster running in AWS. Processes at a rate of __100,000+__ messages per second.
 
@@ -74,33 +74,33 @@ Developed a processing pipeline tool to convert IoT device __protobuf__ messages
 
 _AWS, Scala, Spark, Kafka, Kafka Streams, Cassandra, Python, Kubernetes, Helm, Docker._
 
-### Java Developer at [Post Office](https://www.postoffice.co.uk/) — _August 2014 to November 2014_
+### Java Developer at [Post Office](https://www.postoffice.co.uk/) _(August 2014—November 2014)_
 
 Delivered a financial reconciliation engine to reconcile financial transactions across Post Office products, identify transactions that cannot be balanced, and provide a reporting user interface for financial service centre staff to investigate unbalanced transactions.
 
 _Java, Spring Batch, Spring Integration, Spring MVC, RabbitMQ, REST, MySQL, and Tomcat._
 
-### Java Developer at [Monitise](https://en.wikipedia.org/wiki/Monitise) — _January 2014 to July 2014_
+### Java Developer at [Monitise](https://en.wikipedia.org/wiki/Monitise) _(January 2014—July 2014)_
 
 Developed the credit card payment user interface and backend for Yaap Shopping, a first of its kind venture between a telecoms company (Telefónica) and a bank (Santander and Caixa). Evaluated metrics monitoring solutions for Monitise to deploy across all their platforms.
 
-### Java Developer at [Aimia](https://www.aimia.com/) — _June 2012 to December 2013_
+### Java Developer at [Aimia](https://www.aimia.com/) _(June 2012—December 2013)_
 
 Aimia is a global leader of loyalty management and owner of the Nectar brand of loyalty cards. Delivered a flexible and compelling loyalty platform to allow Aimia to win new business. Developed a batch processing framework (Spring Batch, Mongo DB) for ingesting large files from third-party suppliers. Introduced property-based testing and BDD to drive up code quality.
 
 _Java, Spring, Spring Batch, Mongo DB, MySQL, Apache Camel, Rabbit MQ, AWS, REST, asynchronous events, pair programming._
 
-### Java Microservice Developer at [Bank of America Merrill Lynch](https://www.bankofamerica.com/) — _February 2011 to May 2012_
+### Java Microservice Developer at [Bank of America Merrill Lynch](https://www.bankofamerica.com/) _(February 2011—May 2012)_
 
 Delivered a Global Liquidity Platform that became a solid foundation for rapidly developing novel market- leading sweeping and pooling products, which included Multi-Currency Notional Pooling, Single Currency Notional Pooling, and Physical Cash Concentration.
 
 _Java, Spring, Hibernate, idempotency, compensating transactions, parallelism, pair programming._
 
-### Java Lead Practitioner at [RDF Group](https://www.rdfgroup.com/) — _October 2006 to January 2011_
+### Java Lead Practitioner at [RDF Group](https://www.rdfgroup.com/) _(October 2006—January 2011)_
 
 RDF Group is a supplier of IT solutions and staff and provided my expertise to the loyalty systems company Aimia, the marine insurance and reinsurance provider Kiln Group, and the bank Northern Rock.
 
-### C/C#/Java Developer at C Squared Consulting — _July 2000 to July 2006_
+### C/C#/Java Developer at C Squared Consulting _(July 2000—July 2006)_
 
 Developed a fault-tolerant and high-performance message switch (C, BEA Tuxedo, and Oracle), which integrated the California Law Enforcement Telecommunications System with state and federal systems.
 
