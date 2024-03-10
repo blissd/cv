@@ -18,12 +18,14 @@ jobs:
       - name: Sanitize
         # Some unicode characters don't cause problems for the PDF.
         # Strip cutesy icons.
-        # Convert em-dashes to hyphens.
         # Convert curly quotes to straight quotes.
+        # Convert em-dashes to hyphens.
         run: |
           < README.md  tr --delete '🪪✅🌟🧑‍💻👨‍🎓🏅' > README2.md
-          < README2.md tr '—’“”' '-\'""' > README3.md
-          mv README3.md README.md
+          < README2.md tr "’" "'" > README3.md
+          < README3.md tr '“”' '""' > README4.md
+          < README4.md tr '—' '-' > README5.md
+          mv README5.md README.md
       - name: Build PDF from Markdown
         uses: BaileyJM02/markdown-to-pdf@v1.2.0
         with:
