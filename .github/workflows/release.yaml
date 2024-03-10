@@ -22,16 +22,7 @@ jobs:
           output_dir: out
       - name: Rename PDF
         run: cp out/README.pdf ./david_bliss_cv.pdf
-      - name: Semantic Release
-        id: semantic
-        uses: cycjimmy/semantic-release-action@v4
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/upload-artifact@v4
         with:
-          branch: main
-      - name: Release
-        if: steps.semantic.outputs.new_release_published == 'true'
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: ${{ steps.semantic.outputs.new_release_git_tag }}
-          files: david_bliss_cv.pdf
+          name: david_bliss_cv.pdf
+          path: david_bliss_cv.pdf
