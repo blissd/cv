@@ -1,4 +1,7 @@
 #theme: jekyll-theme-minimal
-remote_theme: steve-schneider/minima-solarized
+remote_theme: jekyll/minima
 title: CV
 description: David Bliss' CV
+
+minima:
+  skin: solarized
