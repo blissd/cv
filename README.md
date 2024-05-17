@@ -19,7 +19,7 @@ ___AWS___
   EMR, S3, ECR, Kinesis, Data Pipelines.
 
 ___Languages and APIs___  
-  Scala, Python, Golang, Java, SQL, Spring, Hibernate, JUnit, Linux.
+  Scala, Python, Rust, Golang, Java, SQL, Spring, Hibernate, JUnit, Linux.
 
 ___Databases___  
   Cassandra, Mongo, Oracle, MySQL, SQLite.
@@ -33,11 +33,17 @@ ___Build Tools___
 ___Methodologies___  
   Agile, XP, TDD, BDD.
 
+## Open Source
+
+### [Fotema](https://flathub.org/apps/app.fotema.Fotema), a Photo Gallery for Linux _(March 2024—present)_
+
+Developed a Linux-native photo gallery app for the GNOME desktop environment written in Rust. Published to FlatHub, the app store for Linux.
+
 ## 🧑‍💻 Experience
 
 ### Data Engineer at [NewDay](https://www.newday.co.uk/) _(July 2022—present)_
 
-Involved with the design and implementation of a new data streaming platform built in Confluent Cloud and Snowflake. Designed DBT project for creating and managing data models. 
+Involved with the design and implementation of a new data streaming platform built in Confluent Cloud and Snowflake. Designed DBT project for creating and managing data models. Designed and implemented implemented encryption-at-rest for Apache Kafka by integrating with the HashiCorp Vault Transit Security Engine.
 
 _Kafka, Terraform, Terragrunt, DBT, Confluent Cloud, Snowflake._
 
