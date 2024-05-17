@@ -12,7 +12,7 @@ Well-practiced software engineer with over 20 years of experience building softw
 ## 🌟 Skills
 
 ___Core___  
-  Scala, Python Golang, Kafka, Kafka Streams, Apache Spark, Kubernetes, Helm,  
+  Scala, Python Golang, Rust, Kafka, Kafka Streams, Apache Spark, Kubernetes, Helm,  
   Cassandra, AWS, big data, batch and stream processing, microservices.
 
 ___AWS___  
@@ -33,11 +33,13 @@ ___Build Tools___
 ___Methodologies___  
   Agile, XP, TDD, BDD.
 
-## Open Source
+## 🐧 Open Source
 
-### [Fotema](https://flathub.org/apps/app.fotema.Fotema), a Photo Gallery for Linux _(March 2024—present)_
+### [Fotema](https://github.com/blissd/fotema), a Photo Gallery for Linux _(March 2024—present)_
 
-Developed a Linux-native photo gallery app for the GNOME desktop environment written in Rust. Published to FlatHub, the app store for Linux.
+Developed a Linux-native photo gallery app for the GNOME desktop environment written in Rust. Published to [Flathub](https://flathub.org/apps/app.fotema.Fotema), the app store for Linux.
+
+_Rust, SQLite, GTK-RS, Relm4, Flatpak_
 
 ## 🧑‍💻 Experience
 
@@ -45,7 +47,7 @@ Developed a Linux-native photo gallery app for the GNOME desktop environment wri
 
 Involved with the design and implementation of a new data streaming platform built in Confluent Cloud and Snowflake. Designed DBT project for creating and managing data models. Designed and implemented implemented encryption-at-rest for Apache Kafka by integrating with the HashiCorp Vault Transit Security Engine.
 
-_Kafka, Terraform, Terragrunt, DBT, Confluent Cloud, Snowflake._
+_Kafka, Terraform, Terragrunt, Crossplane, ArgoCD, DBT, Confluent Cloud, Snowflake._
 
 ### Scala/Python/Golang Data Engineer at [NewDay](https://www.newday.co.uk/) _(April 2020—October 2021)_
 
