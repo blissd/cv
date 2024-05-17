@@ -153,3 +153,4 @@ ___2015___
 
 ___2014___  
   Functional Programming Principles in Scala @ [Cousera](https://www.coursera.org/maestro/api/certificate/get_certificate?verify-code=87DZAXY7SA)
+
