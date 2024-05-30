@@ -37,7 +37,7 @@ ___Methodologies___
 
 ### [Fotema](https://github.com/blissd/fotema), a Photo Gallery for Linux _(March 2024—present)_
 
-Developed a Linux-native photo gallery app for the GNOME desktop environment written in Rust. Published to [Flathub](https://flathub.org/apps/app.fotema.Fotema), the app store for Linux.
+Developed a 100% Rust Linux-native photo gallery app for the GNOME desktop environment. Published to FlatHub, the app store for Linux.
 
 _Rust, SQLite, GTK-RS, Relm4, Flatpak_
 
@@ -45,9 +45,9 @@ _Rust, SQLite, GTK-RS, Relm4, Flatpak_
 
 ### Data Engineer at [NewDay](https://www.newday.co.uk/) _(July 2022—present)_
 
-Involved with the design and implementation of a new data streaming platform built in Confluent Cloud and Snowflake. Designed DBT project for creating and managing data models. Designed and implemented implemented encryption-at-rest for Apache Kafka by integrating with the HashiCorp Vault Transit Security Engine.
+Involved with the design and implementation of a new data streaming platform built in Confluent Cloud and Snowflake. Designed DBT project for creating and managing data models. Designed and implemented implemented encryption-at-rest for Apache Kafka by integrating with the HashiCorp Vault Transit Security Engine. Configured and deployed Helm charts through ArgoCD.
 
-_Kafka, Terraform, Terragrunt, Crossplane, ArgoCD, DBT, Confluent Cloud, Snowflake._
+_Kafka, ArgoCD, Crossplane, Terraform, Terragrunt, DBT, Confluent Cloud, Snowflake._
 
 ### Scala/Python/Golang Data Engineer at [NewDay](https://www.newday.co.uk/) _(April 2020—October 2021)_
 
