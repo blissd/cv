@@ -12,14 +12,14 @@ Well-practiced software engineer with over 20 years of experience building softw
 ## 🌟 Skills
 
 ___Core___  
-  Scala, Python Golang, Rust, Kafka, Kafka Streams, Apache Spark, Kubernetes, Helm,  
+  Scala, Java, Python, Rust, Golang, Kafka, Kafka Streams, Apache Spark, Kubernetes, Helm,  
   Cassandra, AWS, big data, batch and stream processing, microservices.
 
 ___AWS___  
-  EMR, S3, ECR, Kinesis, Data Pipelines.
+  Lamda, S3, EC2, ECR, Kinesis, Data Pipelines, CloudWatch.
 
 ___Languages and APIs___  
-  Scala, Python, Rust, Golang, Java, SQL, Spring, Hibernate, JUnit, Linux.
+  Scala, Java, Python, Rust, Golang, SQL, Spring, Hibernate, JUnit, Linux.
 
 ___Databases___  
   Cassandra, Mongo, Oracle, MySQL, SQLite.
@@ -37,30 +37,31 @@ ___Methodologies___
 
 ### [Fotema](https://github.com/blissd/fotema), a Photo Gallery for Linux _(March 2024—present)_
 
-Developed a 100% Rust Linux-native photo gallery app for the GNOME desktop environment. Published to FlatHub, the app store for Linux.
+Learnt Rust and developed a Linux-native photo gallery app for the GNOME desktop environment. Published to [Flathub](https://flathub.org/apps/app.fotema.Fotema), the app store for Linux.
 
-_Rust, SQLite, GTK-RS, Relm4, Flatpak_
+_Rust, SQLite, GTK-RS, Relm4, Uber H3 Geocoding, Flatpak_
 
 ## 🧑‍💻 Experience
 
-### Data Engineer at [NewDay](https://www.newday.co.uk/) _(July 2022—present)_
+### Software and Platform Engineer at [NewDay](https://www.newday.co.uk/) _(July 2022—June 2024)_
 
-Involved with the design and implementation of a new data streaming platform built in Confluent Cloud and Snowflake. Designed DBT project for creating and managing data models. Designed and implemented implemented encryption-at-rest for Apache Kafka by integrating with the HashiCorp Vault Transit Security Engine. Configured and deployed Helm charts through ArgoCD.
+Involved with the design and implementation of a new data streaming platform built in Confluent Cloud and Snowflake. Designed DBT project for creating and managing data models. Designed and implemented encryption-at-rest for Apache Kafka by integrating with the HashiCorp Vault Transit Security Engine. Configured and deployed Helm charts through ArgoCD.
 
-_Kafka, ArgoCD, Crossplane, Terraform, Terragrunt, DBT, Confluent Cloud, Snowflake._
+_Scala, Java, Kafka, ArgoCD, Crossplane, Terraform, Terragrunt, Crossplane, ArgoCD, DBT, Confluent Cloud, Snowflake._
 
-### Scala/Python/Golang Data Engineer at [NewDay](https://www.newday.co.uk/) _(April 2020—October 2021)_
+### Scala/Python/Golang/Big Data Software Engineer at [NewDay](https://www.newday.co.uk/) _(April 2020—October 2021)_
 
 Developed Golang tooling for scrubbing and importing 24 terabytes of CSV data into AWS Athena, allowing NewDay to migrate away from a third-party service and reduce costs by __£1.4 million per year__.
 
-Solved a Scala Akka Actor batch processing system's AWS S3 "small files problem". Before designing and implementing a solution a 40GB input file would result in 80,000 very small Parquet files being written to S3, after the changes a small number of large Parquet files were written to S3. This __reduced__ file processing time __by two hours__ allowing NewDay to meet SLAs, removed the need for a time-consuming file consolidation process, reduced storage space by 10 times, and reduced processing costs.
+Solved a batch system's AWS S3 "small files problem" which would turn a 40GB input file into 80,000 very small Parquet files being written to S3. The file processing was redesigned to write to S3 a small number of large Parquet files. File __processing time__ was __reduced by two hours__ allowing NewDay to meet SLAs and __storage space__ was __reduced by 10 times__.
 
-Designed and implemented an AWS lambda to refresh views in the Dremio data lake engine. The solution __reduced processing time and costs__ for updating views and centralised view configuration into a single location per environment, which gave data engineers a complete overview of an environment's view requirements.
+Designed and implemented an AWS lambda to refresh views in the Dremio data lake engine. The solution __reduced processing time and costs__ for updating views and centralised view configuration into a single location per environment, which gave data engineers and analysts a complete overview of an environment's view requirements.
 
 Designed and implemented a Scala FS2 batch job to process large JSON files and convert to Parquet tables.
+
 Wrote a Golang utility for quickly deleting records from AWS DynamoDB.
 
-_Scala, Python, Golang, FS2, AWS Batch, AWS Lambda, Dremio._
+_Scala, Java, Python, Golang, cats, FS2, AWS Batch, AWS Lambda, Dremio._
 
 ### Scala Microservice Engineer at [11:FS Foundry](https://www.11fs.com) _(August 2019—February 2020)_
 
