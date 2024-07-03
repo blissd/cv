@@ -7,7 +7,7 @@ Software engineer near London and Southeast England
 
 ## ✅ Profile
 
-Well-practiced software engineer with over 20 years of experience building software solutions across banking, insurance, loyalty, and law enforcement industries. Real-world expertise building large-scale data platforms, micro-services, analytic algorithms, and real-time communication systems. A keen polygot-programmer who believes code should be written to be understood by humans, and values simplicity and readability over complexity and obscurity. Hands-on  in the design and development of greenfield projects, and also the enhancement, maintenance and support of more mature systems.
+Well-practised software engineer with experience building solutions across the banking, insurance, customer loyalty, and law enforcement industries. Real-world expertise building large-scale data platforms, micro-services, analytic algorithms, and real-time communication systems and taking them to production. A keen polygot-programmer who believes code should be written to be understood by humans, and who values simplicity and readability over complexity and obscurity. Hands-on  in the design and development of greenfield projects, and also the enhancement, maintenance and support of mature systems.
 
 ## 🌟 Skills
 
