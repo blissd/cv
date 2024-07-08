@@ -21,9 +21,10 @@ jobs:
         # Convert curly quotes to straight quotes.
         # Convert em-dashes to hyphens.
         # Remove first line with badges. 
+        # FIXME figure out a single expression for removing all emoji.
         run: |
           sed -i '1d' README.md
-          < README.md  tr --delete '🪪✅🌟🧑‍💻👨‍🎓🏅' > README2.md
+          < README.md  tr --delete '🪪✅🌟🧑‍💻👨‍🎓🏅🐧' > README2.md
           < README2.md tr "’" "'" > README3.md
           < README3.md tr '“”' '""' > README4.md
           < README4.md tr '—' '-' > README5.md

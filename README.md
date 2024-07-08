@@ -1,9 +1,12 @@
 [![](https://img.shields.io/badge/PDF-Download-268bd2?labelColor=073642&amp;style=for-the-badge)](https://github.com/blissd/cv/releases/latest/download/david_bliss_cv.pdf) [![](https://img.shields.io/badge/CV-GitHub-859900?labelColor=073642&amp;style=for-the-badge)](https://github.com/blissd/cv/)
 
 # 🪪 David Bliss
-Software engineer near London and Southeast England
+Software engineer near London and Southeast England.
 
-[Email](mailto:contact@yottabyte.uk) · [Website](https://yottabyte.uk) · [LinkedIn](https://www.linkedin.com/in/davidbliss) · [GitHub](https://github.com/blissd)
+[Email](mailto:contact@yottabyte.uk) · 
+[Website](https://yottabyte.uk) · 
+[LinkedIn](https://www.linkedin.com/in/davidbliss) · 
+[GitHub](https://github.com/blissd)
 
 ## ✅ Profile
 
@@ -37,7 +40,7 @@ ___Methodologies___
 
 ### [Fotema](https://github.com/blissd/fotema), a Photo Gallery for Linux _(March 2024—present)_
 
-Learnt Rust and developed a Linux-native photo gallery app for the GNOME desktop environment. Published to [Flathub](https://flathub.org/apps/app.fotema.Fotema), the app store for Linux.
+Self-taught Rust and developed a Linux-native photo gallery app for the GNOME desktop environment. Published to [Flathub](https://flathub.org/apps/app.fotema.Fotema), the app store for Linux.
 
 _Rust, SQLite, GTK-RS, Relm4, Uber H3 Geocoding, Flatpak_
 
@@ -45,9 +48,11 @@ _Rust, SQLite, GTK-RS, Relm4, Uber H3 Geocoding, Flatpak_
 
 ### Software and Platform Engineer at [NewDay](https://www.newday.co.uk/) _(July 2022—June 2024)_
 
-Involved with the design and implementation of a new data streaming platform built in Confluent Cloud and Snowflake. Designed DBT project for creating and managing data models. Designed and implemented encryption-at-rest for Apache Kafka by integrating with the HashiCorp Vault Transit Security Engine. Configured and deployed Helm charts through ArgoCD.
+Design and implementation of a new data streaming platform built in Confluent Cloud and Snowflake. Designed a DBT project for creating and managing data models. Designed and implemented encryption-at-rest for Apache Kafka by integrating with the HashiCorp Vault Transit Security Engine.
 
-_Scala, Java, Kafka, ArgoCD, Crossplane, Terraform, Terragrunt, Crossplane, ArgoCD, DBT, Confluent Cloud, Snowflake._
+Integrated applications into NewDay's observability platform using an Open Telemetry collector deployed to Kubernetes by ArgoCD with metrics and alerts in NewRelic managed by Crossplane.
+
+_Scala, Java, Kafka, Kubernetes, Helm, ArgoCD, Crossplane, Terraform, Terragrunt, Crossplane, ArgoCD, DBT, Confluent Cloud, Snowflake._
 
 ### Scala/Python/Golang/Big Data Software Engineer at [NewDay](https://www.newday.co.uk/) _(April 2020—October 2021)_
 
@@ -63,11 +68,11 @@ Wrote a Golang utility for quickly deleting records from AWS DynamoDB.
 
 _Scala, Java, Python, Golang, cats, FS2, AWS Batch, AWS Lambda, Dremio._
 
-### Scala Microservice Engineer at [11:FS Foundry](https://www.11fs.com) _(August 2019—February 2020)_
+### Scala Micro-service Engineer at [11:FS Foundry](https://www.11fs.com) _(August 2019—February 2020)_
 
-Designed and developed microservices to support Foundry, a ledger-first API driven banking platform. The platform was built using the Lightbend Lagom microservices framework, Scala, Cassandra, and Kafka.
+Designed and developed micro-services to support Foundry, a ledger-first API driven banking platform. The platform was built using the Lightbend Lagom micro-services framework, Scala, Cassandra, and Kafka.
 
-Designed and implemented the microservices to support the expiry of payment card authorisations. The functionality was delivered over two sprints to support the alpha release of a new payment card product.
+Designed and implemented the micro-services to support the expiry of payment card authorisations. The functionality was delivered over two sprints to support the alpha release of a new payment card product.
 
 Led the adoption of the Apache Avro message format for Kafka messages to improve performance and reduce the risk of breaking changes to message formats.
 
@@ -75,7 +80,7 @@ _AWS, GCP, Micro-services, Scala, Kubernetes, Kafka, Cassandra, Docker, Helm, La
 
 ### Big Data Engineer at [Hive](https://www.hivehome.com/) _(November 2014—July 2019)_
 
-Designed and developed pipelines with Kafka, Kakfa Streams, and Apache Spark, to implement data science algorithms to deliver customer-facing products derived from Hive thermostat data. Algorithms were packaged as Docker images and deployed with Helm charts to a Kubernetes cluster running in AWS. Processes at a rate of __100,000+__ messages per second.
+Designed and developed pipelines with Kafka, Kafka Streams, and Apache Spark to implement data science algorithms to deliver customer-facing products derived from Hive thermostat data. Algorithms were packaged as Docker images and deployed with Helm charts to a Kubernetes cluster running in AWS. Processes at a rate of __100,000+__ messages per second.
 
 Worked with data scientists to deliver a Kafka Streams application to analyse thermostat state, detect when a customer's heating fails, and notify the customer of that failure. A batch-based Python prototype algorithm was delivered by data scientists, but was unsuitable for real-time failure detection, so I redesigned the algorithm to work as a __real-time Kafka Streams__ application.
 
