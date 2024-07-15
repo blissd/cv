@@ -131,6 +131,9 @@ Lead development of California's "Do Not Call" system.
 
 ## 🏅 Certifications and Courses
 
+---2024___
+  Scala 3 And Functional Programming Essentials @ [Rock The JVM](https://rockthejvm.com/courses/808121/certificate)
+
 ___2020___  
   Building Reusable Code from Scratch with Rust @ [Udemy](https://www.udemy.com/certificate/UC-49c1ca8a-df98-444e-bc1a-32c21d703821/)  
   The Rust Programming Language @ [Udemy](https://www.udemy.com/certificate/UC-7a0ad516-3616-4afa-b89b-989be6fe981f/)  
