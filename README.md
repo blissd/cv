@@ -131,7 +131,7 @@ Lead development of California's "Do Not Call" system.
 
 ## 🏅 Certifications and Courses
 
----2024___
+___2024___
   Scala 3 And Functional Programming Essentials @ [Rock The JVM](https://rockthejvm.com/courses/808121/certificate)
 
 ___2020___  
