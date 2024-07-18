@@ -132,8 +132,8 @@ Lead development of California's "Do Not Call" system.
 ## 🏅 Certifications and Courses
 
 ___2024___  
-  Java Collections Framework + Generics, Lambdas & Stream API @ [Udemy](https://www.udemy.com/certificate/UC-c5b2d729-bf6b-4f07-94e4-a2de92e4bcbc/)
-  Scala 3 And Functional Programming Essentials @ [Rock The JVM](https://rockthejvm.com/courses/808121/certificate)
+  Java Collections Framework + Generics, Lambdas & Stream API @ [Udemy](https://www.udemy.com/certificate/UC-c5b2d729-bf6b-4f07-94e4-a2de92e4bcbc/)  
+  Scala 3 And Functional Programming Essentials @ [Rock The JVM](https://rockthejvm.com/courses/808121/certificate)  
 
 ___2020___  
   Building Reusable Code from Scratch with Rust @ [Udemy](https://www.udemy.com/certificate/UC-49c1ca8a-df98-444e-bc1a-32c21d703821/)  
