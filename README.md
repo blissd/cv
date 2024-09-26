@@ -46,6 +46,10 @@ _Rust, SQLite, GTK-RS, Relm4, Uber H3 Geocoding, Flatpak_
 
 ## 🧑‍💻 Experience
 
+### Backend Software Engineer at [J.P. Morgan](https://www.jpmorgan.com/) _(September 2024—present)_
+
+_Java, Kubernetes, Helm._
+
 ### Software and Platform Engineer at [NewDay](https://www.newday.co.uk/) _(July 2022—June 2024)_
 
 Design and implementation of a new data streaming platform built in Confluent Cloud and Snowflake. Designed a DBT project for creating and managing data models. Designed and implemented encryption-at-rest for Apache Kafka by integrating with the HashiCorp Vault Transit Security Engine.
