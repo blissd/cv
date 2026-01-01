@@ -46,9 +46,15 @@ _Rust, SQLite, GTK-RS, Relm4, Uber H3 Geocoding, Flatpak_
 
 ## 🧑‍💻 Experience
 
-### Backend Software Engineer at [J.P. Morgan](https://www.jpmorgan.com/) _(September 2024—present)_
+### VP. Lead Software Engineer at [J.P. Morgan](https://www.jpmorgan.com/) _(September 2024—present)_
 
-_Java, Kubernetes, Helm._
+Worked with the _product team_ to built internal tooling to support the product development life-cycle. Designed and wrote a Python application to convert Git version-controlled Markdown product requirements documentation into Jira issues.
+
+Worked with the _devops_ team to build infrastructure to help developers uplift code-quality and enforce coding standards. Wrote [pre-commit](https://pre-commit.com) hooks to shift-left code-quality checks and integrated the hooks into key GitHub repositories.
+
+Joined the _observability working group_ to support SLOs (service-level objectives) by instrumenting applications to emit metrics, configuring alerts, building dashboards, and writing developer documention. Leveraged Micrometer, Grafana Cloud, and OpenTelemetry.
+
+_Kotlin, Java, Python, Kubernetes, Helm, GitHub Actions, Grafana._
 
 ### Software and Platform Engineer at [NewDay](https://www.newday.co.uk/) _(July 2022—June 2024)_
 
@@ -169,4 +175,3 @@ ___2015___
 
 ___2014___  
   Functional Programming Principles in Scala @ [Cousera](https://www.coursera.org/maestro/api/certificate/get_certificate?verify-code=87DZAXY7SA)
-
