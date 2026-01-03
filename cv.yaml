@@ -147,6 +147,20 @@ cv:
           - "[Published to FlatHub](https://flathub.org/en/apps/app.fotema.Fotema), the app store for Linux."
           - Over 30,000 installations.
 
+    skills:
+      - label: Languages and APIs
+        details: Python, Kotlin, Scala, Java, Rust, Go, Spring, Hibernate, JUnit.
+      - label: Infrastructure
+        details: Kubernetes, Helm, Terraform, AWS.
+      - label: Databases
+        details: Cassandra, Mongo, Oracle, MySQL, SQLite.
+      - label: Messaging
+        details: Kafka, AWS Kinesis, Rabbit MQ, Apache Active MQ, REST.
+      - label: Build tools
+        details: sbt, Gradle, Maven, Ant, make, Jenkins, Git.
+      - label: AWS
+        details: Lamda, S3, EC2, ECR, Kinesis, Data Pipelines, CloudWatch.
+
     certifications:
       - name: Java Collections Framework + Generics, Lambdas & Stream API, [Udemy](https://www.udemy.com/certificate/UC-c5b2d729-bf6b-4f07-94e4-a2de92e4bcbc/), 2024.
       - name: Scala 3 And Functional Programming Essentials, [Rock The JVM](https://rockthejvm.com/courses/808121/certificate), 2024.
@@ -169,9 +183,3 @@ cv:
       - name: Python Data Structures, [Coursera](https://www.coursera.org/account/accomplishments/verify/VHVY2836QWWS), 2015.
       - name: Principles of Functional Reactive Programming in Scala, [Coursera](https://www.coursera.org/account/accomplishments/records/8jPph3vAjsWdaQeW), 2015.
       - name: Functional Programming Principles in Scala, [Cousera](https://www.coursera.org/maestro/api/certificate/get_certificate?verify-code=87DZAXY7SA), 2014.
-
-    skills:
-      - label: Languages
-        details: Python, Kotlin, Scala, Java, Rust, Go
-      - label: Infrastructure
-        details: Kubernetes, Helm, Terraform, AWS
