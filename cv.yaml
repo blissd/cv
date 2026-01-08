@@ -161,24 +161,45 @@ cv:
         details: Lamda, S3, EC2, ECR, Kinesis, Data Pipelines, CloudWatch.
 
     certifications:
-      - name: Java Collections Framework + Generics, Lambdas & Stream API, [Udemy](https://www.udemy.com/certificate/UC-c5b2d729-bf6b-4f07-94e4-a2de92e4bcbc/), 2024.
-      - name: Scala 3 And Functional Programming Essentials, [Rock The JVM](https://rockthejvm.com/courses/808121/certificate), 2024.
-      - name: Building Reusable Code from Scratch with Rust, [Udemy](https://www.udemy.com/certificate/UC-49c1ca8a-df98-444e-bc1a-32c21d703821/), 2020.
-      - name: The Rust Programming Language, [Udemy](https://www.udemy.com/certificate/UC-7a0ad516-3616-4afa-b89b-989be6fe981f/), 2020.
-      - name: Build a TCP Chat App with Go, [Udemy](https://www.udemy.com/certificate/UC-INP6UTFA), 2020.
-      - name: Complete Guide to Protocol Buffers in Golang/Python/Java, [Udemy](https://www.udemy.com/certificate/UC-Q1168M4T), 2020.
-      - name: "Go: The Complete Developer's Guide, [Udemy](https://www.udemy.com/certificate/UC-2DGJ1LMN), 2020"
-      - name: REST API JWT Auth with Golang, [Udemy](https://www.udemy.com/certificate/UC-D0WJ5R27), 2020.
-      - name: Web Development with Golang, [Udemy](https://www.udemy.com/certificate/UC-1LJCOPO9), 2020.
-      - name: "RPC Golang Master Class: Build Modern APIs and Microservices, [Udemy](https://www.udemy.com/certificate/UC-6F7LN2C4), 2020."
-      - name: Learn How to Code Golang, [Udemy](https://www.udemy.com/certificate/UC-WX2AIINH/), 2020.
-      - name: Programming Reactive Systems, [edX](https://courses.edx.org/certificates/3e7d7309b6d4469784d60ccccbe4562f), 2019.
-      - name: Blockchain for Business—An Introduction to Hyperledger Technologies, [edX](https://courses.edx.org/certificates/d), 2017.
-      - name: Big Data Analysis with Scala and Spark, [Coursera](https://www.coursera.org/account/accomplishments/verify/BT95Z35S6LVX), 2017
-      - name: Parallel Programming, [Coursera](https://www.coursera.org/account/accomplishments/verify/CJ4JSLUQK73D), 2016.
-      - name: Retrieving, Processing, and Visualizing Data with Python, [Coursera](https://www.coursera.org/account/accomplishments/verify/8MKC3G5RN9S3), 2016.
-      - name: Using Databases with Python, [Coursera](https://www.coursera.org/account/accomplishments/verify/JNESYEJ5FURJ), 2015.
-      - name: Using Python to Access Web Data, [Coursera](https://www.coursera.org/account/accomplishments/verify/BVY6EDX4Z2PM), 2015.
-      - name: Python Data Structures, [Coursera](https://www.coursera.org/account/accomplishments/verify/VHVY2836QWWS), 2015.
-      - name: Principles of Functional Reactive Programming in Scala, [Coursera](https://www.coursera.org/account/accomplishments/records/8jPph3vAjsWdaQeW), 2015.
-      - name: Functional Programming Principles in Scala, [Cousera](https://www.coursera.org/maestro/api/certificate/get_certificate?verify-code=87DZAXY7SA), 2014.
+      - label: Java Collections Framework + Generics, Lambdas & Stream API
+        details: "[Udemy](https://www.udemy.com/certificate/UC-c5b2d729-bf6b-4f07-94e4-a2de92e4bcbc/), 2024"
+      - label: Scala 3 And Functional Programming Essentials
+        details: "[Rock The JVM](https://rockthejvm.com/courses/808121/certificate), 2024."
+      - label: Building Reusable Code from Scratch with Rust
+        details: "[Udemy](https://www.udemy.com/certificate/UC-49c1ca8a-df98-444e-bc1a-32c21d703821/), 2020"
+      - label: The Rust Programming Language
+        details: "[Udemy](https://www.udemy.com/certificate/UC-7a0ad516-3616-4afa-b89b-989be6fe981f/), 2020"
+      - label: Build a TCP Chat App with Go
+        details: "[Udemy](https://www.udemy.com/certificate/UC-INP6UTFA), 2020"
+      - label: Complete Guide to Protocol Buffers in Golang/Python/Java
+        details: "[Udemy](https://www.udemy.com/certificate/UC-Q1168M4T), 2020"
+      - label: "Go: The Complete Developer's Guide"
+        details: "[Udemy](https://www.udemy.com/certificate/UC-2DGJ1LMN), 2020"
+      - label: REST API JWT Auth with Golang
+        details: "[Udemy](https://www.udemy.com/certificate/UC-D0WJ5R27), 2020"
+      - label: Web Development with Golang
+        details: "[Udemy](https://www.udemy.com/certificate/UC-1LJCOPO9), 2020"
+      - label: "RPC Golang Master Class: Build Modern APIs and Microservices"
+        details: "[Udemy](https://www.udemy.com/certificate/UC-6F7LN2C4), 2020"
+      - label: Learn How to Code Golang
+        details: "[Udemy](https://www.udemy.com/certificate/UC-WX2AIINH/), 2020"
+      - label: Programming Reactive Systems
+        details: "[edX](https://courses.edx.org/certificates/3e7d7309b6d4469784d60ccccbe4562f), 2019"
+      - label: Blockchain for Business—An Introduction to Hyperledger Technologies
+        details: "[edX](https://courses.edx.org/certificates/d), 2017"
+      - label: Big Data Analysis with Scala and Spark
+        details: "[Coursera](https://www.coursera.org/account/accomplishments/verify/BT95Z35S6LVX), 2017"
+      - label: Parallel Programming
+        details: "[Coursera](https://www.coursera.org/account/accomplishments/verify/CJ4JSLUQK73D), 2016"
+      - label: Retrieving, Processing, and Visualizing Data with Python
+        details: "[Coursera](https://www.coursera.org/account/accomplishments/verify/8MKC3G5RN9S3), 2016"
+      - label: Using Databases with Python
+        details: "[Coursera](https://www.coursera.org/account/accomplishments/verify/JNESYEJ5FURJ), 2015"
+      - label: Using Python to Access Web Data
+        details: "[Coursera](https://www.coursera.org/account/accomplishments/verify/BVY6EDX4Z2PM), 2015"
+      - label: Python Data Structures
+        details: "[Coursera](https://www.coursera.org/account/accomplishments/verify/VHVY2836QWWS), 2015"
+      - label: Principles of Functional Reactive Programming in Scala
+        details: "[Coursera](https://www.coursera.org/account/accomplishments/records/8jPph3vAjsWdaQeW), 2015"
+      - label: Functional Programming Principles in Scala
+        details: "[Cousera](https://www.coursera.org/maestro/api/certificate/get_certificate?verify-code=87DZAXY7SA), 2014"
