@@ -1,0 +1,201 @@
+# yaml-language-server: $schema=https://github.com/rendercv/rendercv/blob/main/schema.json?raw=true
+cv:
+  name: David Bliss
+  location: Southeast England
+  email: work@davidbliss.me
+  headline: Backend Software Engineer
+  social_networks:
+    - network: GitHub
+      username: blissd
+    - network: LinkedIn
+      username: davidbliss
+  sections:
+    summary:
+      - Well-practised software engineer with experience building solutions across the banking, insurance, customer loyalty, and law enforcement industries. Real-world expertise building large-scale data platforms, micro-services, analytic algorithms, and real-time communication systems and taking them to production. A keen polygot-programmer who believes code should be written to be understood by humans, and who values simplicity and readability over complexity and obscurity. Hands-on in the design and development of greenfield projects, and also the enhancement, maintenance and support of mature systems.
+
+    skills:
+      - label: Languages and APIs
+        details: Python, Kotlin, Scala, Java, Rust, Go, Spring, Hibernate, JUnit.
+      - label: Infrastructure
+        details: Kubernetes, Helm, Terraform, AWS.
+      - label: Databases
+        details: Cassandra, Mongo, Oracle, MySQL, SQLite.
+      - label: Messaging
+        details: Kafka, AWS Kinesis, Rabbit MQ, Apache Active MQ, REST.
+      - label: Build tools
+        details: sbt, Gradle, Maven, Ant, make, Jenkins, Git.
+      - label: AWS
+        details: Lamda, S3, EC2, ECR, Kinesis, Data Pipelines, CloudWatch.
+
+    experience:
+      - company: "[JP Morgan Chase](https://www.jpmorgan.com)"
+        position: VP. Lead Software Engineer
+        start_date: 2024-09
+        end_date: present
+        location: London
+        summary: Developing payments products for markets in the UK and Europe.
+        highlights:
+          - Engaged with the product team to built internal tooling to support the product development life-cycle. Designed and wrote a Python application to convert Git version-controlled Markdown product requirements documentation into Jira issues.
+          - Worked with the _devops_ team to build infrastructure to help developers uplift code-quality and enforce coding standards. Wrote [pre-commit](https://pre-commit.com) hooks to shift-left code-quality checks and integrated the hooks into key GitHub repositories.
+          - Joined the observability working group to support SLOs (service-level objectives) by instrumenting applications to emit metrics, configuring alerts, building dashboards, and writing developer documention. Leveraged Micrometer, Grafana Cloud, and OpenTelemetry.
+
+      - company: "[NewDay](https://www.newday.co.uk/)"
+        position: Backend Engineer
+        # Had a break between 2021-10 and 2022-07. However, don't want to adjacent entries saying NewDay.
+        # start_date: 2022-07-
+        end_date: 2024-06
+        start_date: 2020-04
+        # end_date: 2021-10
+        location: London
+        summary: Helping people move forward with credit.
+        highlights:
+          - Design and implementation of a new data streaming platform built in Confluent Cloud and Snowflake. Designed a DBT project for creating and managing data models. Designed and implemented encryption-at-rest for Apache Kafka by integrating with the HashiCorp Vault Transit Security Engine.
+          - Integrated applications into NewDay's observability platform using an Open Telemetry collector deployed to Kubernetes by ArgoCD with metrics and alerts in NewRelic managed by Crossplane.
+          # Following entries are from first stint at NewDay.
+          - Developed Golang tooling for scrubbing and importing 24 terabytes of CSV data into AWS Athena, allowing NewDay to migrate away from a third-party service and reduce costs by £1.4 million per year.
+          - Solved a batch system's AWS S3 "small files problem" which would turn a 40GB input file into 80,000 very small Parquet files being written to S3. The file processing was redesigned to write to S3 a small number of large Parquet files. File processing time was reduced by two hours allowing NewDay to meet SLAs and storage space was reduced by 10 times.
+          - Designed and implemented an AWS lambda to refresh views in the Dremio data lake engine. The solution reduced processing time and costs for updating database views and centralised view configuration into a single location per environment, which gave data engineers and analysts a complete overview of an environment's view requirements.
+          - Designed and implemented a Scala FS2 batch job to process large JSON files and convert to Parquet tables.
+          - Wrote a Golang utility for quickly deleting records from AWS DynamoDB.
+
+      - company: "[11:FS Foundry](https://www.11fs.com)"
+        position: Scala Microservice Engineer
+        start_date: 2019-08
+        end_date: 2020-02
+        location: London
+        summary: FinTech consultants building digital financial services.
+        highlights:
+          - Designed and developed micro-services to support Foundry, a ledger-first API driven banking platform. The platform was built using the Lightbend Lagom micro-services framework, Scala, Cassandra, and Kafka.
+          - Designed and implemented the micro-services to support the expiry of payment card authorisations. The functionality was delivered over two sprints to support the alpha release of a new payment card product.
+          - Led the adoption of the Apache Avro message format for Kafka messages to improve performance and reduce the risk of breaking changes to message formats.
+
+      - company: "[Hive](https://www.hivehome.com/)"
+        position: Big Data Engineer
+        start_date: 2014-11
+        end_date: 2019-07
+        location: London
+        summary: Provider of smart-thermostats and IoT devices.
+        highlights:
+          - Designed and developed pipelines with Kafka, Kafka Streams, and Apache Spark to implement data science algorithms to deliver customer-facing products derived from Hive thermostat data. Algorithms were packaged as Docker images and deployed with Helm charts to a Kubernetes cluster running in AWS. Processes at a rate of 100,000+ messages per second.
+          - Worked with data scientists to deliver a Kafka Streams application to analyse thermostat state, detect when a customer's heating fails, and notify the customer of that failure. A batch-based Python prototype algorithm was delivered by data scientists, but was unsuitable for real-time failure detection, so I redesigned the algorithm to work as a real-time Kafka Streams application.
+          - Designed and developed a data pipeline to feed smart meter readings into algorithms to deliver energy usage insights to British Gas customers. Applied a random forest, from the Weka machine learning library, to classify customer energy usage.
+          - Developed a processing pipeline tool to convert IoT device protobuf messages from an AWS kinesis stream to daily aggregated Parquet files stored in S3 and queryable from Athena.
+
+      - company: "[Post Office](https://www.postoffice.co.uk/)"
+        position: Java Developer
+        start_date: 2014-08
+        end_date: 2014-11
+        location: London
+        summary: |
+          Delivered a financial reconciliation engine to reconcile financial transactions across Post Office products, identify transactions that cannot be balanced, and provide a reporting user interface for financial service centre staff to investigate unbalanced transactions.
+
+      - company: "[Monitise](https://en.wikipedia.org/wiki/Monitise)"
+        position: Java Developer
+        start_date: 2014-01
+        end_date: 2014-07
+        location: London
+        summary: Payment and loyalty platform
+        highlights:
+          - Developed the credit card payment user interface and backend for Yaap Shopping, a first of its kind venture between a telecoms company (Telefónica) and a bank (Santander and Caixa).
+          - Evaluated metrics monitoring solutions for Monitise to deploy across all their platforms.
+
+      - company: "[Aimia](https://www.aimia.com/)"
+        position: Java Developer
+        start_date: 2012-06
+        end_date: 2013-12
+        location: London
+        summary: |
+          Aimia is a global leader of loyalty management and owner of the Nectar brand of loyalty cards.
+        highlights:
+          - Delivered a flexible and compelling loyalty platform to allow Aimia to win new business.
+          - Developed a batch processing framework (Spring Batch, Mongo DB) for ingesting large files from third-party suppliers.
+          - Introduced property-based testing and BDD to drive up code quality.
+
+      - company: "[Bank of America Merrill Lynch](https://www.bankofamerica.com/)"
+        position: Java Microservice Developer
+        start_date: 2011-02
+        end_date: 2012-05
+        location: London
+        summary: |
+          Delivered a Global Liquidity Platform that became a solid foundation for rapidly developing novel market-leading sweeping and pooling products, which included Multi-Currency Notional Pooling, Single Currency Notional Pooling, and Physical Cash Concentration.
+
+      - company: RDF Group
+        position: Java Lead Practitioner
+        start_date: 2006-10
+        end_date: 2011-01
+        location: London
+        summary: |
+          RDF Group is a supplier of IT solutions and staff and provided my expertise to the loyalty systems company Aimia, the marine insurance and reinsurance provider Kiln Group, and the bank Northern Rock.
+
+      - company: C Squared Consulting
+        position: C/C#/Java Developer
+        start_date: 2000-07
+        end_date: 2006-07
+        location: California, USA
+        highlights:
+          - Developed a fault-tolerant and high-performance message switch (C, BEA Tuxedo, and Oracle), which integrated the California Law Enforcement Telecommunications System with state and federal systems.
+          - Lead development of California's "Do Not Call" system.
+
+    education:
+      - institution: University of Brighton
+        area: Computer Science
+        degree: BSc
+        start_date: "1996"
+        end_date: "2000"
+        location: Brighton, England
+        highlights:
+          - 2.1 (Honours) Computer Science
+          - Software Engineering Higher National Diploma
+
+    projects:
+      - name: "[Fotema](https://github.com/blissd/fotema)"
+        start_date: 2024-03
+        end_date: present
+        summary: Open-source photo gallery for Linux written in Rust
+        highlights:
+          - "[Published to FlatHub](https://flathub.org/en/apps/app.fotema.Fotema), the app store for Linux."
+          - Over 30,000 installations.
+
+    certifications:
+      - label: Java Collections Framework + Generics, Lambdas & Stream API
+        details: "[Udemy](https://www.udemy.com/certificate/UC-c5b2d729-bf6b-4f07-94e4-a2de92e4bcbc/), 2024"
+      - label: Scala 3 And Functional Programming Essentials
+        details: "[Rock The JVM](https://rockthejvm.com/courses/808121/certificate), 2024."
+      - label: Building Reusable Code from Scratch with Rust
+        details: "[Udemy](https://www.udemy.com/certificate/UC-49c1ca8a-df98-444e-bc1a-32c21d703821/), 2020"
+      - label: The Rust Programming Language
+        details: "[Udemy](https://www.udemy.com/certificate/UC-7a0ad516-3616-4afa-b89b-989be6fe981f/), 2020"
+      - label: Build a TCP Chat App with Go
+        details: "[Udemy](https://www.udemy.com/certificate/UC-INP6UTFA), 2020"
+      - label: Complete Guide to Protocol Buffers in Golang/Python/Java
+        details: "[Udemy](https://www.udemy.com/certificate/UC-Q1168M4T), 2020"
+      - label: "Go: The Complete Developer's Guide"
+        details: "[Udemy](https://www.udemy.com/certificate/UC-2DGJ1LMN), 2020"
+      - label: REST API JWT Auth with Golang
+        details: "[Udemy](https://www.udemy.com/certificate/UC-D0WJ5R27), 2020"
+      - label: Web Development with Golang
+        details: "[Udemy](https://www.udemy.com/certificate/UC-1LJCOPO9), 2020"
+      - label: "RPC Golang Master Class: Build Modern APIs and Microservices"
+        details: "[Udemy](https://www.udemy.com/certificate/UC-6F7LN2C4), 2020"
+      - label: Learn How to Code Golang
+        details: "[Udemy](https://www.udemy.com/certificate/UC-WX2AIINH/), 2020"
+      - label: Programming Reactive Systems
+        details: "[edX](https://courses.edx.org/certificates/3e7d7309b6d4469784d60ccccbe4562f), 2019"
+      - label: Blockchain for Business—An Introduction to Hyperledger Technologies
+        details: "[edX](https://courses.edx.org/certificates/d), 2017"
+      - label: Big Data Analysis with Scala and Spark
+        details: "[Coursera](https://www.coursera.org/account/accomplishments/verify/BT95Z35S6LVX), 2017"
+      - label: Parallel Programming
+        details: "[Coursera](https://www.coursera.org/account/accomplishments/verify/CJ4JSLUQK73D), 2016"
+      - label: Retrieving, Processing, and Visualizing Data with Python
+        details: "[Coursera](https://www.coursera.org/account/accomplishments/verify/8MKC3G5RN9S3), 2016"
+      - label: Using Databases with Python
+        details: "[Coursera](https://www.coursera.org/account/accomplishments/verify/JNESYEJ5FURJ), 2015"
+      - label: Using Python to Access Web Data
+        details: "[Coursera](https://www.coursera.org/account/accomplishments/verify/BVY6EDX4Z2PM), 2015"
+      - label: Python Data Structures
+        details: "[Coursera](https://www.coursera.org/account/accomplishments/verify/VHVY2836QWWS), 2015"
+      - label: Principles of Functional Reactive Programming in Scala
+        details: "[Coursera](https://www.coursera.org/account/accomplishments/records/8jPph3vAjsWdaQeW), 2015"
+      - label: Functional Programming Principles in Scala
+        details: "[Cousera](https://www.coursera.org/maestro/api/certificate/get_certificate?verify-code=87DZAXY7SA), 2014"
