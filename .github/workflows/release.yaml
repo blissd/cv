@@ -1,51 +1,47 @@
-# Markdown to PDF build copied from
-# https://github.com/sladkoff/resume
+# Inspired by:
+# - https://github.com/sladkoff/resume
+# - https://github.com/rendercv/rendercv-pipeline
 
 on:
   push:
     branches:
       - main
 
-name: Build PDF
+name: Render CV
 
 jobs:
   build:
-    name: Build and Release PDF
+    name: Build and release CV
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
-      - name: Sanitize
-        # Some unicode characters don't cause problems for the PDF.
-        # Strip cutesy icons.
-        # Convert curly quotes to straight quotes.
-        # Convert em-dashes to hyphens.
-        # Remove first line with badges. 
-        # FIXME figure out a single expression for removing all emoji.
-        run: |
-          sed -i '1d' README.md
-          < README.md  tr --delete '🪪✅🌟🧑‍💻👨‍🎓🏅🐧' > README2.md
-          < README2.md tr "’" "'" > README3.md
-          < README3.md tr '“”' '""' > README4.md
-          < README4.md tr '—' '-' > README5.md
-          mv README5.md README.md
-      - name: Build PDF from Markdown
-        uses: BaileyJM02/markdown-to-pdf@v1.2.0
+        uses: actions/checkout@v6
+
+      - name: Setup python
+        uses: actions/setup-python@v6
         with:
-          input_path: README.md
-          output_dir: out
-      - name: Rename PDF
-        run: cp out/README.pdf ./david_bliss_cv.pdf
-      - name: Semantic Release
+          python-version: "3.14"
+
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v7
+
+      - name: Setup just
+        uses: extractions/setup-just@v3
+
+      - name: Render CV
+        run: just generate
+
+      - name: Create release
         id: semantic
-        uses: cycjimmy/semantic-release-action@v4
+        uses: cycjimmy/semantic-release-action@v6
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           branch: main
-      - name: Release
+
+      - name: Publish release
         if: steps.semantic.outputs.new_release_published == 'true'
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.semantic.outputs.new_release_git_tag }}
-          files: david_bliss_cv.pdf
+          files: rendercv_output/*.pdf

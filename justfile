@@ -6,5 +6,5 @@ generate:
     uvx rendercv render \
         -nohtml \
         -nopng \
-        -md out.md \
+        -md README.md \
         cv.yaml
