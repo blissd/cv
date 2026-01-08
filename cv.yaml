@@ -4,7 +4,6 @@ cv:
   location: Southeast England
   email: contact@yottabyte.uk
   headline: Backend Software Engineer
-  website: https://yottabyte.uk
   social_networks:
     - network: GitHub
       username: blissd
@@ -43,7 +42,13 @@ cv:
       - company: "[NewDay](https://www.newday.co.uk/)"
         position: Backend Engineer
         # Had a break between 2021-10 and 2022-07. However, don't want to adjacent entries saying NewDay.
-        # start_date: 2022-07
+        # start_date: 2022-07- company: "[NewDay](https://www.newday.co.uk/)"
+                position: Backend Engineer
+                start_date: 2020-04
+                end_date: 2021-10
+                location: London
+                summary: Helping people move forward with credit.
+                highlights:
         end_date: 2024-06
         start_date: 2020-04
         # end_date: 2021-10
