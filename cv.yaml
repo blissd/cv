@@ -12,8 +12,7 @@ cv:
       username: davidbliss
   sections:
     summary:
-      - Well-practised software engineer with experience building solutions across the banking, insurance, customer loyalty, and law enforcement industries. Real-world expertise building large-scale data platforms, micro-services, analytic algorithms, and real-time communication systems and taking them to production. A keen polygot-programmer who believes code should be written to be understood by humans, and who values simplicity and readability over complexity and obscurity. Hands-on  in the design and development of greenfield projects, and also the enhancement, maintenance and support of mature systems.
-      - Software engineer with 10 years of experience in distributed systems.
+      - Well-practised software engineer with experience building solutions across the banking, insurance, customer loyalty, and law enforcement industries. Real-world expertise building large-scale data platforms, micro-services, analytic algorithms, and real-time communication systems and taking them to production. A keen polygot-programmer who believes code should be written to be understood by humans, and who values simplicity and readability over complexity and obscurity. Hands-on in the design and development of greenfield projects, and also the enhancement, maintenance and support of mature systems.
 
     experience:
       - company: "[JP Morgan Chase](https://www.jpmorgan.com)"
@@ -23,7 +22,7 @@ cv:
         location: London
         summary: Developing payments products for markets in the UK and Europe.
         highlights:
-          - Worked with the product team to built internal tooling to support the product development life-cycle. Designed and wrote a Python application to convert Git version-controlled Markdown product requirements documentation into Jira issues.
+          - Engaged with the product team to built internal tooling to support the product development life-cycle. Designed and wrote a Python application to convert Git version-controlled Markdown product requirements documentation into Jira issues.
           - Worked with the _devops_ team to build infrastructure to help developers uplift code-quality and enforce coding standards. Wrote [pre-commit](https://pre-commit.com) hooks to shift-left code-quality checks and integrated the hooks into key GitHub repositories.
           - Joined the observability working group to support SLOs (service-level objectives) by instrumenting applications to emit metrics, configuring alerts, building dashboards, and writing developer documention. Leveraged Micrometer, Grafana Cloud, and OpenTelemetry.
 
@@ -32,7 +31,6 @@ cv:
         start_date: 2022-07
         end_date: 2024-06
         location: London
-        summary:
         highlights:
           - Design and implementation of a new data streaming platform built in Confluent Cloud and Snowflake. Designed a DBT project for creating and managing data models. Designed and implemented encryption-at-rest for Apache Kafka by integrating with the HashiCorp Vault Transit Security Engine.
           - Integrated applications into NewDay's observability platform using an Open Telemetry collector deployed to Kubernetes by ArgoCD with metrics and alerts in NewRelic managed by Crossplane.
@@ -97,8 +95,9 @@ cv:
         end_date: 2013-12
         location: London
         summary: |
-          Aimia is a global leader of loyalty management and owner of the Nectar brand of loyalty cards. Delivered a flexible and compelling loyalty platform to allow Aimia to win new business.
+          Aimia is a global leader of loyalty management and owner of the Nectar brand of loyalty cards.
         highlights:
+          - Delivered a flexible and compelling loyalty platform to allow Aimia to win new business.
           - Developed a batch processing framework (Spring Batch, Mongo DB) for ingesting large files from third-party suppliers.
           - Introduced property-based testing and BDD to drive up code quality.
 
