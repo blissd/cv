@@ -42,13 +42,7 @@ cv:
       - company: "[NewDay](https://www.newday.co.uk/)"
         position: Backend Engineer
         # Had a break between 2021-10 and 2022-07. However, don't want to adjacent entries saying NewDay.
-        # start_date: 2022-07- company: "[NewDay](https://www.newday.co.uk/)"
-                position: Backend Engineer
-                start_date: 2020-04
-                end_date: 2021-10
-                location: London
-                summary: Helping people move forward with credit.
-                highlights:
+        # start_date: 2022-07-
         end_date: 2024-06
         start_date: 2020-04
         # end_date: 2021-10
