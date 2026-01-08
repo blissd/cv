@@ -1,7 +1,8 @@
 #theme: jekyll-theme-minimal
 remote_theme: jekyll/minima
-# title: CV
-# description: David Bliss' CV
+title:
+description:
 
 minima:
   skin: solarized
+  hide_site_feed_link: false
