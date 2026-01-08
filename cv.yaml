@@ -14,6 +14,20 @@ cv:
     summary:
       - Well-practised software engineer with experience building solutions across the banking, insurance, customer loyalty, and law enforcement industries. Real-world expertise building large-scale data platforms, micro-services, analytic algorithms, and real-time communication systems and taking them to production. A keen polygot-programmer who believes code should be written to be understood by humans, and who values simplicity and readability over complexity and obscurity. Hands-on in the design and development of greenfield projects, and also the enhancement, maintenance and support of mature systems.
 
+    skills:
+      - label: Languages and APIs
+        details: Python, Kotlin, Scala, Java, Rust, Go, Spring, Hibernate, JUnit.
+      - label: Infrastructure
+        details: Kubernetes, Helm, Terraform, AWS.
+      - label: Databases
+        details: Cassandra, Mongo, Oracle, MySQL, SQLite.
+      - label: Messaging
+        details: Kafka, AWS Kinesis, Rabbit MQ, Apache Active MQ, REST.
+      - label: Build tools
+        details: sbt, Gradle, Maven, Ant, make, Jenkins, Git.
+      - label: AWS
+        details: Lamda, S3, EC2, ECR, Kinesis, Data Pipelines, CloudWatch.
+
     experience:
       - company: "[JP Morgan Chase](https://www.jpmorgan.com)"
         position: VP. Lead Software Engineer
@@ -28,20 +42,17 @@ cv:
 
       - company: "[NewDay](https://www.newday.co.uk/)"
         position: Backend Engineer
-        start_date: 2022-07
+        # Had a break between 2021-10 and 2022-07. However, don't want to adjacent entries saying NewDay.
+        # start_date: 2022-07
         end_date: 2024-06
-        location: London
-        highlights:
-          - Design and implementation of a new data streaming platform built in Confluent Cloud and Snowflake. Designed a DBT project for creating and managing data models. Designed and implemented encryption-at-rest for Apache Kafka by integrating with the HashiCorp Vault Transit Security Engine.
-          - Integrated applications into NewDay's observability platform using an Open Telemetry collector deployed to Kubernetes by ArgoCD with metrics and alerts in NewRelic managed by Crossplane.
-
-      - company: "[NewDay](https://www.newday.co.uk/)"
-        position: Backend Engineer
         start_date: 2020-04
-        end_date: 2021-10
+        # end_date: 2021-10
         location: London
         summary: Helping people move forward with credit.
         highlights:
+          - Design and implementation of a new data streaming platform built in Confluent Cloud and Snowflake. Designed a DBT project for creating and managing data models. Designed and implemented encryption-at-rest for Apache Kafka by integrating with the HashiCorp Vault Transit Security Engine.
+          - Integrated applications into NewDay's observability platform using an Open Telemetry collector deployed to Kubernetes by ArgoCD with metrics and alerts in NewRelic managed by Crossplane.
+          # Following entries are from first stint at NewDay.
           - Developed Golang tooling for scrubbing and importing 24 terabytes of CSV data into AWS Athena, allowing NewDay to migrate away from a third-party service and reduce costs by £1.4 million per year.
           - Solved a batch system's AWS S3 "small files problem" which would turn a 40GB input file into 80,000 very small Parquet files being written to S3. The file processing was redesigned to write to S3 a small number of large Parquet files. File processing time was reduced by two hours allowing NewDay to meet SLAs and storage space was reduced by 10 times.
           - Designed and implemented an AWS lambda to refresh views in the Dremio data lake engine. The solution reduced processing time and costs for updating database views and centralised view configuration into a single location per environment, which gave data engineers and analysts a complete overview of an environment's view requirements.
@@ -145,20 +156,6 @@ cv:
         highlights:
           - "[Published to FlatHub](https://flathub.org/en/apps/app.fotema.Fotema), the app store for Linux."
           - Over 30,000 installations.
-
-    skills:
-      - label: Languages and APIs
-        details: Python, Kotlin, Scala, Java, Rust, Go, Spring, Hibernate, JUnit.
-      - label: Infrastructure
-        details: Kubernetes, Helm, Terraform, AWS.
-      - label: Databases
-        details: Cassandra, Mongo, Oracle, MySQL, SQLite.
-      - label: Messaging
-        details: Kafka, AWS Kinesis, Rabbit MQ, Apache Active MQ, REST.
-      - label: Build tools
-        details: sbt, Gradle, Maven, Ant, make, Jenkins, Git.
-      - label: AWS
-        details: Lamda, S3, EC2, ECR, Kinesis, Data Pipelines, CloudWatch.
 
     certifications:
       - label: Java Collections Framework + Generics, Lambdas & Stream API
