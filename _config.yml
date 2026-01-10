@@ -1,8 +1,8 @@
 #theme: jekyll-theme-minimal
 remote_theme: jekyll/minima
-title: Test 1
-description: Test 2
+# title: Test 1
+# description: Test 2
 
 minima:
   skin: solarized
-  hide_site_feed_link: false
+  hide_site_feed_link: true
